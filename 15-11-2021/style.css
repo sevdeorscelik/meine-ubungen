@@ -5,6 +5,7 @@
     height: 300px;
     width: 200px;
     padding: 12px;
+    background-color: yellow;
 }
 
 .featurecard {
@@ -20,6 +21,7 @@
     background-color: pink;
 }
 
-p.featurecard {
+div.featurecard {
     color: red;
+    /*featurecard classini iceren div*/
 }

@@ -1,0 +1,43 @@
+/* 
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid green; 
+}
+*/
+
+/* body {
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid green;
+} */
+/* * selektörü bir islemi bütün elementler icin ayri ayri uygular. body ye cerceve verdigimizde sadece hespsini bir cerceveye aldini görürüz. */ 
+
+.static {
+border: solid 2px green;
+position: static
+}
+
+.relative {
+border: solid 2px green;
+position: relative
+}
+
+.fixed {
+position: fixed;
+bottom: 0%;
+background-color: pink;
+border: solid 5px khaki;
+padding: 10px;
+}
+
+.absolute {
+position: absolute
+}
+
+.sticky {
+position: sticky ;
+top: 0%;
+border: solid 3px pink;
+background-color: rgb(248, 223, 140);
+}
