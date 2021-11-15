@@ -1,0 +1,52 @@
+body1 { 
+    background-color: lightgreen;
+    background-image: url(images/cafe.jpg) ;
+    /* background-size: 500px;*/ 
+    background-size: cover;
+    /* background-repeat: no-repeat ; */
+    background-position: center ;
+    background-blend-mode: multiply;
+}
+
+
+body2 {
+    background-image: url(images/pattern.png);
+    background-color: red;
+    background-repeat: repeat-x;
+    background-position: center;
+    background-attachment: fixed;
+ /*   background-blend-mode: multiply;   */
+} 
+
+body {
+    background-image: linear-gradient( khaki , pink , powderblue); 
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+.box {
+    position: fixed;
+    height: 200px;
+    width: 200px;
+    border: solid 2px teal;
+}
+
+.box1 {
+    top: 100px;
+    left: 100px;
+    background-color: khaki;
+}
+
+.box2 {
+    top: 150px;
+    left: 150px;
+    background-color: pink;
+}
+
+.box3 {
+    top: 200px;
+    left: 200px;
+    background-color: powderblue;
+}
