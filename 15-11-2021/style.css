@@ -1,0 +1,25 @@
+
+.card {
+    display: inline-block; 
+    border: 3px solid blue;
+    height: 300px;
+    width: 200px;
+    padding: 12px;
+}
+
+.featurecard {
+    display: inline-block;
+    border: 3px solid blue;
+    height: 300px;
+    width: 200px;
+    padding: 12px;
+    background-color: blueviolet;
+}
+
+.feature {
+    background-color: pink;
+}
+
+p.featurecard {
+    color: red;
+}
