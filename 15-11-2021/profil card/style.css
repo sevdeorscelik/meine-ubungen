@@ -1,0 +1,40 @@
+body {
+   background-color: black; 
+
+}
+
+.card {
+    
+    width: 300px;
+    margin: auto;
+    position: relative;
+    border: white 5px solid;
+    
+}
+
+img {
+    
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+    display: block;
+    
+    
+}
+
+.name {
+    color: black;
+    position: absolute;
+    right: -20px;
+    top: 20px;
+   
+}
+
+.name > div {
+    
+    background-color: rgba(255, 255, 255, 0.774);
+    border-radius: 40% ;
+    border: solid 2px green;
+    padding: 5px 10px;
+}
+
