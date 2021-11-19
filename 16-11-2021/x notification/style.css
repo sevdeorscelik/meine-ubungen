@@ -1,0 +1,32 @@
+
+.notification {
+    background-color: red;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+   /* height: 30px;
+    width: 150px; 
+    padding: 15px 0px 10px 10px;*/
+    padding: 20px;
+    
+}
+
+
+img {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    right: -16px;
+    top: -16px;
+    
+    
+}
+
+.close {
+    padding: 0; 
+    background: none;
+    border: 0;
+}
+
+
+
