@@ -1,0 +1,30 @@
+body {
+    background-image: url(assets/background.png);
+    background-size: cover;
+    background-position: top;
+    background-size: 20vh;
+    background-repeat: repeat-x;
+    
+}
+
+#calendar_container div {
+    display: inline-block;
+}
+
+#calendar_container div:nth-child(odd) {
+background-color: red;
+color: cornsilk;
+}
+
+#calendar_container div:nth-child(even) {
+    background-color: cornsilk;
+    color: red;
+    }
+
+#calendar_container div:last-child {
+    background-image: url(assets/christmas-tree.png);
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center ;
+    text-shadow: 1px 1px 1px cornsilk ;
+}
