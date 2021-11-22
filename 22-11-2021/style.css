@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+h1,
+h2,
+h3 {
+    font-family: "Oswald", sans-serif;
+    background-color: rgb(197, 211, 255);
+}
+p {
+    font-family: Roboto ;
+}
+
+p.fantasy {
+    font-family: fantasy;
+}
+p.monospace {
+    font-family: monospace;
+}
+p.cursive {
+    font-family: cursive;
+}
