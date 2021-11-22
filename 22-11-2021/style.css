@@ -4,18 +4,56 @@ h1,
 h2,
 h3 {
     font-family: "Oswald", sans-serif;
-    background-color: rgb(197, 211, 255);
+    background-color: rgb(0, 20, 220, 0.2);
+    text-align: center;
+    width: 70%;
+    letter-spacing: 10px;
+    /* text-decoration: overline underline line-through dotted; */
+    text-shadow: 2px 2px 4px yellow;
+    font-style: italic;
+    
+}
+
+h1 {
+    width: 190px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+}
+body {
+    font-size: 1.3em;
 }
 p {
     font-family: Roboto ;
+    font-weight: 500;
+    text-align: justify;
+    line-height: 1.6;
 }
+p::before {
+    content: "hallo!";
+    color : rgb(10, 218, 255) ;
+}
+p::after{
+    content: "\f13d";
+    font-family: "Font Awesome 5 Free";
+    font-weight: "900";
+  /* calismadi */  
+}
+ span {
+     color: red;
+ }
 
 p.fantasy {
     font-family: fantasy;
+    
 }
 p.monospace {
     font-family: monospace;
 }
 p.cursive {
     font-family: cursive;
+}
+
+button {
+    text-transform: uppercase;
 }
