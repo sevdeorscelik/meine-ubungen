@@ -1,0 +1,22 @@
+header img {
+    width: 100%;
+    height: 35vh;
+    object-fit: cover;
+}
+
+li {
+    background-color: rgba(0, 195, 255, 0.808);
+}
+
+li:hover {
+    background-color: rgb(255, 136, 0);
+    color: chartreuse;
+}
+
+li:visited {
+    color: rgb(218, 20, 218);
+}
+nav> :visited {
+    color: rgb(218, 20, 218);
+}
+

@@ -1,0 +1,110 @@
+header img {
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+}
+body {
+    background-color: rgb(243, 231, 210);
+}
+h1 {
+    color: rgb(247, 235, 235);
+    background-color: #F58EA0;
+    
+}
+
+h1:hover{
+    background-color: #1ED7F0;
+    color: #F58EA0;
+}
+
+h2 {
+    color:rgb(250, 26, 250);
+    background-color: rgb(211, 211, 211);
+}
+
+h2:hover {
+    color: springgreen;
+    background-color: black;
+}
+
+#h2 {
+    background-color: rgba(247, 51, 171, 0.938);
+}
+
+#h2:hover{
+    background-color: #07f51a;
+}
+
+h3 {
+    background-color :#EBF64D;
+}
+
+h3:hover {
+    background-color: rgb(218, 20, 218);
+    color: #EBF64D;
+}
+
+#links {
+    background-color: #1ED7F0;
+}
+
+#links>:hover{
+    background-color: #f5f100;
+    color: black;
+}
+
+#links:visited{
+    background-color: rgb(255, 106, 0);
+    text-decoration: double;
+    color: black; Bear claw bear claw halvah lemon drops dragée cupcake gingerbread jelly-o jelly beans. Lollipop lollipop caramels lemon drops bear claw apple pie sugar plum dragée pastry.
+    Gummies soufflé carrot cake pastry bear claw cake. 
+
+}
+nav {
+    color: #1ED7F0;
+    background-color: none;
+}
+
+nav > :visited{
+    color:rgb(218, 20, 218);
+}
+
+#lolipop {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    border: solid 5px yellow;
+    float: left;
+    margin-right: 10px;
+    
+}
+#jelibons {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    border: solid 5px #1ED7F0;;
+    float: right;
+    margin-left: 10px;
+}
+
+#floss {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    border: solid 5px rgb(218, 20, 218);
+    float: left;
+    margin-right: 10px;
+}
+
+#lolipop:hover {
+    width: 120px;
+    height: 120px;
+}
+#jelibons:hover {
+    width: 130px;
+    height: 130px;
+}
+#floss:hover {
+    width: 120px;
+    height: 120px;
+}
