@@ -11,7 +11,11 @@ body {
 :root {
     --primaryColor: #3083DC ;
     --secondaryColor: #70c1b3 ;
-    --accentColor: #2a7221;
+    /* --accentColor: #2a7221;*/
+    /*accentcolor a vrdigimiz rengi sonradan degistirdik */
+    --accentColor: #c14953;
+   
+    
 }
 
 .color_blocks {
@@ -22,6 +26,7 @@ body {
    /* background-color: #3083DC;*/
    background-color: var(--primaryColor);
     padding: 5em;
+    
 }
 
 .secondary {
@@ -45,7 +50,7 @@ h2 {
 .card-main {
     width: 300px;
     height: 200px;
-    background-color: var(--primaryColor);
+    background-color: #373f47; ;
     border-radius: 10px;
     box-shadow: 3px 3px 3px 1px #373f477b;
 }
@@ -55,7 +60,7 @@ h2 {
 }
 
 .btn {
-    background-color: var(--accentColor);
+    background-color: var(--secondaryColor);
     padding: 0.6em;
     color: rgb(255, 255, 255);
     text-decoration: none;
