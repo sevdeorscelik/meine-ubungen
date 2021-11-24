@@ -1,0 +1,65 @@
+/* #C14953,
+#3083DC,
+#373F47,
+#2A7221,
+#70C1B3; */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --primaryColor: #3083DC ;
+    --secondaryColor: #70c1b3 ;
+    --accentColor: #2a7221;
+}
+
+.color_blocks {
+    color: rgb(255, 255, 255);
+}
+
+.primary {
+   /* background-color: #3083DC;*/
+   background-color: var(--primaryColor);
+    padding: 5em;
+}
+
+.secondary {
+    /*background-color: #70c1b3 ;*/
+    background-color: var(--secondaryColor);
+    padding: 5em;
+}
+
+.accent {
+   /* background-color: #2a7221;*/
+   background-color: var(--accentColor);
+    padding: 5em;
+}
+
+h1 {
+    color: #3083DC ;
+}
+h2 {
+    color: #70c1b3;
+}
+.card-main {
+    width: 300px;
+    height: 200px;
+    background-color: var(--primaryColor);
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 1px #373f477b;
+}
+.card-content {
+    color: rgb(255, 255, 255);
+    padding: 1em;
+}
+
+.btn {
+    background-color: var(--accentColor);
+    padding: 0.6em;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 4px;
+    text-align: center;
+    display: block;
+}
