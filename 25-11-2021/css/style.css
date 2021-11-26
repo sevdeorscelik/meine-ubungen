@@ -1,0 +1,134 @@
+:root {
+    font-size: 62.5%;
+    
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    margin: 3em;
+    
+}
+header div {
+    display: inline-block;
+    color: aqua;
+}
+
+.logo {
+    color: aqua;
+    fill: aqua;
+
+}
+
+ .nnp {
+   padding:0;
+   font-size: 8em;
+   
+ }
+.menu {
+    
+    float: right;
+}
+
+.first {
+ display: flex;
+ justify-content: center;
+ height: 100vh;
+ 
+ background-color: white;
+}
+
+.info {
+margin-top: 10rem;
+width: 80rem;
+height: 50rem;
+font-size: 30px;
+margin-left: 3em;
+
+}
+
+.lorem {
+
+    color: #4F4F4F;
+    margin: 2px;
+    display: inline-block;
+}
+h1, h3{
+    color:#000F37;
+}
+
+h3 {
+    background-color: aqua;
+    display: inline-block;
+    padding: 20px;
+    
+}
+#Layer_1{
+    
+    width: 80rem;
+}
+
+.second {
+    background-color: aqua;
+    height: 100vh;
+    
+}
+.info2 {
+    text-align: center;
+    padding: 5rem;
+    font-size: 30px;
+    color: #4F4F4F;
+    
+}
+
+.whitediv{
+background-color: white;
+width: 60%;
+margin-left: 38em;
+display: flex; 
+}
+
+.list {
+font-size: 25px;
+line-height: 2em;
+font-weight: bold;
+width: 35%;
+list-style:none;
+margin: 4em 0 0 5em;
+
+}
+
+
+#Layer_2 {
+width: 40em;
+}
+
+footer {
+    
+    padding: 2em 0 2em 0;
+    font-size: 3em;
+    width: 100%;
+    
+   
+}
+
+.text {
+    padding-left: 3em;
+    display: inline-block;
+    
+   
+}
+
+.icons{
+   display: inline-block;
+   float: right;
+   margin-right: 5em;
+   letter-spacing: 1em;
+}
+    
+
+
+
