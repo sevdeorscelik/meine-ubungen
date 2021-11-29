@@ -1,4 +1,131 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    --content-widht: 70%;
+    --color-accent: #8a0f0f ;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'IBM Plex Serif', serif;
+    background-image: url(img/bg.jpg);
+}
+
+header {
+    
+    margin: auto 0;
+}
+
+main {
+    width: var(--content-widht);
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 1.6em;
+    padding: 4rem 12rem;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section {
+    border-left: solid 1px #b3b0b0;
+    padding: 1.2rem;
+    margin-bottom: 2.5em;
+}
+article {
+    margin-bottom: 2.5em;
+}
+article:last-child {
+    margin-bottom: 0;
+}
+nav ul li > a {
+    font-weight: 600;
+    color: var(--color-accent);
+  
+    
+}
+nav {
+    text-align: center;
+    margin: 5rem;
+    width: 100%;
+
+    
+}
+.autor {
+    text-indent: 1em; 
+}
+nav ul li{
+    display: inline-block;
+    
+    
+}
+nav ul li:first-child {
+    margin-left: 0;
+}
+nav a {
+    list-style: none;
+    text-decoration: none;
+    width: 100%;
+    margin: 4rem;
+}
+section a {
+
+}
+
+footer {
+    background-color: rgba(128, 128, 128, 0.349);
+    color: #660000;
+    text-align: center ;
+    font-size: 30px;
+    padding-top: 40px;
+}
+
+nav a:hover {
+    text-decoration: overline;
+    color:  #f52f2f;
+}
+section a:hover {
+    text-decoration: underline;
+}
+footer a:hover {
+    background-color: white;
+    text-decoration: underline;
+}
+footer a:active {
+    color: blue;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap'); 
 
 body {
     background-image: url(img/bg.jpg);
@@ -73,4 +200,4 @@ footer a:active {
     color: blue;
     text-decoration: underline;
 }
-
+*/
