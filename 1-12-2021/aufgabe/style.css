@@ -17,11 +17,14 @@ body {
 }
 fieldset {
     border: solid 2px brown ;
+    border-radius: 2rem;
+    border-style: dotted;
 }
 
 form {
     width:40%;
     margin: 0 auto;
+    
 }
 fieldset {
     margin:1.5rem 0;
@@ -29,12 +32,17 @@ fieldset {
     margin:  1rem;
 }
 textarea {
-    width: 35rem;
+    width: 35rem; 
+    border: dotted 1px #333 ;  
 }
+
 input[type="text"],
 input[type="password"],
-input[type="email"] {
-    padding:2px 3px
+input[type="email"], 
+input[type="number"] {
+    padding:2px 3px;
+    border-radius: 1rem;
+   
 }
 select {
     font-size: 1.6rem;
@@ -42,6 +50,7 @@ select {
 
 main {
     background-color: #fcd890;
+    border-radius: 2rem;
 }
 button {
     padding: 10px 20px ;  
