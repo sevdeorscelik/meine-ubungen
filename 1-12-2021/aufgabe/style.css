@@ -1,0 +1,46 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+:root {
+    font-size:62.5%;
+}
+body {
+    font-family:sans-serif;
+    font-size:1.6rem;
+    font-weight: bolder;
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    color: rgb(117, 21, 21);
+}
+fieldset {
+    border: solid 2px brown ;
+}
+
+form {
+    width:40%;
+    margin: 0 auto;
+}
+fieldset {
+    margin:1.5rem 0;
+    padding:1.5rem;
+    margin:  1rem;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    padding:2px 3px
+}
+select {
+    font-size: 1.6rem;
+}
+
+main {
+    background-color: #dac292;
+}
+button {
+    padding: 10px 20px ; 
+}
+
