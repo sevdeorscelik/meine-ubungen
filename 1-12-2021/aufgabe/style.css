@@ -28,6 +28,9 @@ fieldset {
     padding:1.5rem;
     margin:  1rem;
 }
+textarea {
+    width: 35rem;
+}
 input[type="text"],
 input[type="password"],
 input[type="email"] {
@@ -38,9 +41,8 @@ select {
 }
 
 main {
-    background-color: #dac292;
+    background-color: #fcd890;
 }
 button {
-    padding: 10px 20px ; 
+    padding: 10px 20px ;  
 }
-

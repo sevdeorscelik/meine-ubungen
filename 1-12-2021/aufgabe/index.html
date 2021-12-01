@@ -19,25 +19,25 @@
                 <legend>Benutzer-Info</legend>
                 <fieldset >
                     <legend>Für Registierte User</legend>
-                    <label for="text">E-Mail</label><br>
-                    <input type="text" id="text" name="text" autofocus><br><br>
+                    <label for="text" >E-Mail</label><br>
+                    <input type="text" placeholder="max@mustermann.com" id="text" name="text" autofocus><br><br>
                     <label for="password">Password</label><br>
-                    <input type="password" id="password" name="password" autofocus><br><br>
+                    <input type="password" placeholder="password" id="password" name="password" autofocus><br><br>
                 </fieldset>
             
             <fieldset>
                 <legend>Für Unregistierte User</legend>
                 <label for="text">E-Mail</label><br>
-                <input type="text" id="text" name="text" autofocus><br>
+                <input type="text" placeholder="max@mustermann.com" id="text" name="text" autofocus><br>
             </fieldset>
             <fieldset>
                 <legend>Anschrift</legend>
                 <label for="name">Name</label><br>
-                <input type="text" id="name" name="name" autofocus><br><br>
+                <input type="text" placeholder="Max Mustermann" id="name" name="name" autofocus><br><br>
                 <label for="anschrift">Anschrift</label><br>
-                <input type="text" id="anschrift" name="anschrift" autofocus><br><br>
+                <input type="text" placeholder="Maxstr. 12345 Musterstadt" id="anschrift" name="anschrift" autofocus><br><br>
                 <label for="phone">Phone Number</label><br>
-                <input type="number" id="phone" name="phone" autofocus><br>
+                <input type="number" placeholder="0123 12345678" id="phone" name="phone" autofocus><br>
             </fieldset>
             </fieldset>
             <fieldset>
@@ -45,6 +45,7 @@
                 <select  name="gericht" id="gericht">
                     <option value="auswählen">Auswählen</option>
                     <option value="pommes" class="pommes" >Pommes</option>
+                    <option value="döner" class="döner" >Döner</option>
                     <option value="nudeln">Nudeln</option>
                     <option value="suppe">Tomatensuppe</option>
                     <option value="pizza">Pizza</option>
@@ -61,7 +62,7 @@
             <fieldset>
                 <legend>Sondernwünsche</legend>
                 <label for="id-wünsche"></label>
-                <textarea name="wünsche" id="id-wünsche" cols="30" rows="10" autofocus></textarea>
+                <textarea placeholder="Screiben Sie bitte Ihre Sondernwünsche" name="wünsche" id="id-wünsche" cols="30" rows="10" autofocus></textarea>
             </fieldset>
             <fieldset>
                 <legend>Besonderheiten</legend>
@@ -77,8 +78,6 @@
                 <legend>Wie haben Sie uns gefunden?</legend>
                 <label for="internet">Internet</label>
                 <input checked type="radio" name="language"><br>
-                <label for="fernsehen">Fernsehen</label>
-                <input type="radio"  name="language" ><br>
                 <label for="bekante">Freunde & Familie</label>
                 <input type="radio"  name="language"><br>
                 <label for="zeitung">Zeitung</label>
