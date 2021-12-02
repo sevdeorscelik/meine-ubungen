@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6em;
+}
+
+div {
+    border: 1px solid black;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+/* genislik 600px altina düsünce arkaplan rengi beje dönüyor.
+yani sadece 600pxten genis sayfalarda arkaplan rengi pembeoluyor 
+
+@media screen and (min-width: 600px) {
+    body {
+        background-color: black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 3.2rem;
+    }
+    h1 {
+        font-size: 3.2rem;
+    }
+}
+/*
+
+
+/* kleine Geräte, landscape Moddu) */
+
+@media screen and (min-width:576px) {
+    body {
+        background-color: yellow;
+    }
+    div {
+        display: inline-block;
+        width: 50%;
+    }
+}
+
+/*large devices (desktop, 992px an up*/
+@media screen and (min-width:768px) {
+    body {
+        background-color: lightseagreen;
+    }
+    div {
+        display: inline-block;
+        width: 50%;
+    }
+}
+
+/*large devices (desktop, 992px an up*/
+@media screen and (min-width:992px) {
+    body {
+        background-color: pink;
+    }
+    div {
+        display: inline-block;
+        width: 50%;
+    }
+}
+
+
+@media screen and (min-width:1200px) {
+    body {
+        background-color: lightgreen;
+    }
+    div {
+        display: inline-block;
+        width: 50%;
+    }
+}
