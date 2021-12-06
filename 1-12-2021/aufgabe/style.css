@@ -1,0 +1,57 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+:root {
+    font-size:62.5%;
+}
+body {
+    font-family:sans-serif;
+    font-size:1.6rem;
+    font-weight: bolder;
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    color: rgb(117, 21, 21);
+}
+fieldset {
+    border: solid 2px brown ;
+    border-radius: 2rem;
+    border-style: dotted;
+}
+
+form {
+    width:40%;
+    margin: 0 auto;
+    
+}
+fieldset {
+    margin:1.5rem 0;
+    padding:1.5rem;
+    margin:  1rem;
+}
+textarea {
+    width: 35rem; 
+    border: dotted 1px #333 ;  
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"], 
+input[type="number"] {
+    padding:2px 3px;
+    border-radius: 1rem;
+   
+}
+select {
+    font-size: 1.6rem;
+}
+
+main {
+    background-color: #fcd890;
+    border-radius: 2rem;
+}
+button {
+    padding: 10px 20px ;  
+}

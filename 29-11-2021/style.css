@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+th,
+td {
+    padding: 4px;
+}
+
+th:first-child {
+    width: 50%;
+    
+}
+tfoot td:first-child {
+    text-align: right;
+}
+tr:nth-child(even) {
+    background-color: turquoise;
+}

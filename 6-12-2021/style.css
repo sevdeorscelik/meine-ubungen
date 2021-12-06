@@ -1,0 +1,38 @@
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+
+.box p {
+    text-align: center;
+    color: white;
+}
+
+.container {
+    background-color: darkgray;
+    width: 90%;
+    height: 700px;
+    margin-top: 0 auto;
+    display: flex;
+    /* flex-direction: column-reverse;
+    justify-content: space-evenly; 
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: flex-start; */
+    flex-direction: row;
+}
+
+.box {
+    padding: 12px;
+    width: 200px;
+    height:200px;
+}
+
+.extragrow {
+    flex: 4 2 200px;
+}
