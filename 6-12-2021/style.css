@@ -25,6 +25,8 @@ body {
     align-items: flex-end;
     justify-content: flex-start; */
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .box {
@@ -33,6 +35,6 @@ body {
     height:200px;
 }
 
-.extragrow {
+/* .extragrow {
     flex: 4 2 200px;
-}
+} */
