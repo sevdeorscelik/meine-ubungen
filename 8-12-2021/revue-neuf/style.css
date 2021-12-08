@@ -25,15 +25,16 @@ body{
 
 img {
     width: 42rem;
+    
 }
 h1{
     font-size: 12rem;
     font-weight: bold;
-    width: 35rem; 
+    width: 40rem; 
     overflow-wrap: break-word;
 }
 h2 {
-    font-size: 2.8em;
+    font-size: 2.2em;
     font-weight: bold;
 }
 h4{
