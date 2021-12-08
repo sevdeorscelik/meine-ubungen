@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px red solid;
+}
+:root{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    min-height: 10vh;
+    
+}
+
+.flexchild {
+    flex-basis: 33%;
+}
+
+img {
+    width: 42rem;
+}
+h1{
+    font-size: 12rem;
+    font-weight: bold;
+    width: 35rem; 
+    overflow-wrap: break-word;
+}
+h2 {
+    font-size: 2.8em;
+    font-weight: bold;
+}
+h4{
+    text-transform: uppercase;
+    background-color: black;
+    color: white ;
+    padding: 2rem;
+    border-radius: 3rem;
+}
+
+.noshrink{
+    flex: 0;
+}
+
+.buttonholder{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    justify-content: right;
+}
+.maincontainer{
+    flex-direction: column;
+}
+.language-select{
+    display: flex;
+}
+
+.language-select p{
+    color: white;
+    background-color: black;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin: 2.6rem 1rem;
+}
+.footer{
+    text-align: center;
+    justify-content: center;
+}
