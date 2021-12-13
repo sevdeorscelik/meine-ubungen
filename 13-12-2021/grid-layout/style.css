@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    font-size: 62.5%;
+
+    /**** kullanilacak renkler ****/
+    --primary: #f1faee;
+    --dark: #1d3557;
+    --light: #fff;
+    --highlight: #e63946;
+    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+    --gap: 20px;
+}
+
+body {
+    font-size: 1.6rem;
+    margin: 3rem 3rem;
+    background-color: #a8dadc;
+    color: var(--dark);
+    line-height: 1.4;
+}
+
+.btn {
+    background-color: var(--highlight);
+    color: var(--light);
+    text-decoration: none;
+    padding: 0.6rem 1.3rem;
+}
+
+.wrapper {
+    display: grid;
+    gap: var(--gap);
+}
+
+/* Navigation*/
+
+
+nav ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    list-style: none;
+    gap: var(--gap);
+}
+
+nav ul a {
+    text-decoration: none;
+    background-color: var(--primary);
+    color: var(--dark);
+    display: block;
+    padding: 0.8rem;
+    text-align: center;
+
+    text-transform: uppercase;
+    font-size: 1.8rem;
+}
+
+nav ul li {
+    box-shadow: var(--shadow);
+}
+
+
+/*Top Container*/
+
+
+.top-container {
+    display: grid;
+    gap: var(--gap);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+        "showcase showcase top-box-a"
+        "showcase showcase top-box-b";
+}
+
+.showcase {
+    grid-area: showcase;
+    background-image: url(https://image.ibb.co/kYJK8x/showcase.jpg);
+    color: var(--light);
+    display: flex;
+    flex-direction: column;
+    min-height: 40rem;
+    padding: 3rem;
+    justify-content: center;
+    align-items: start;
+    box-shadow: var(--shadow);
+
+
+
+}
+
+.top-box-a {
+    grid-area: top-box-a;
+    background-color: var(--light);
+    box-shadow: var(--shadow);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap);
+}
+
+.top-box-b {
+    grid-area: top-box-b;
+    background-color: var(--light);
+    box-shadow: var(--shadow);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap);
+}
+
+.showcase h1 {
+    font-size: 6.4rem;
+}
+
+.showcase p {
+    font-size: 2.1rem;
+}
+
+/* Boxes */
+
+.boxes {
+    display: grid;
+    gap: var(--gap);
+
+    /*bu kod ile 4 kolon sayfaya yanyana sigmadiginda alta kayar. */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+
+}
+
+.box {
+    box-shadow: var(--shadow);
+    background-color: var(--primary);
+    text-align: center;
+    padding: 1.5rem 2rem;
+}
+
+/* Info */
+
+.info img {
+    width: 100%;
+    box-shadow: var(--shadow);
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--primary);
+    gap: var(--gap);
+    padding: 3rem;
+    box-shadow: var(--shadow);
+}
+
+.info div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+/* Portfolio*/
+
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--gap);
+}
+
+.portfolio img {
+    width: 100%;
+    box-shadow: var(--shadow);
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    background-color: var(--dark);
+    color: var(--light);
+    padding: 1rem;
+    position: ;
+}
+
+/***** medium size *****/
+
+@media screen and (max-width: 700px) {
+    nav ul {
+        grid-template-columns: 1fr;
+    }
+
+    .top-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        "showcase showcase"
+        "top-box-a top-box-b"
+        ;
+    }
+}
+
+ /**** small size ****/
+ 
+@media screen and (max-width:500px){
+    .top-container{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "showcase"
+        "top-box-a"
+        "top-box-b";
+    }
+}
+
