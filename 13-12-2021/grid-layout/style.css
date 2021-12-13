@@ -74,7 +74,8 @@ nav ul li {
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas:
         "showcase showcase top-box-a"
-        "showcase showcase top-box-b";
+        "showcase showcase top-box-b"
+        ;
 }
 
 .showcase {
@@ -206,7 +207,7 @@ footer {
 }
 
  /**** small size ****/
- 
+
 @media screen and (max-width:500px){
     .top-container{
         grid-template-columns: 1fr;
