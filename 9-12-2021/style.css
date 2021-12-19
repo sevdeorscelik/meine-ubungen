@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+}
+:root {
+    font-size: 62.5%;
+  }
+  
+body {
+    font-size: 1.6rem;  
+  }
+ 
+
+.eltern-container{
+    display: grid;
+    height: 100vh;
+
+/*** version 1 ***/
+
+/* grid-template-columns: 1fr 1fr 1fr 1fr; 
+grid-template-rows: 1fr 1fr 1fr; */
+  
+
+/*** version 2 ***/
+/* grid-template-columns: repeat(4,1fr); */
+
+
+/*** version 3 ***/
+grid-template-columns: minmax(200px, 1fr) 1fr 1fr 1fr;
+
+}
+
+
+.box{
+
+}
+
+.links{
+    background-color: blueviolet;
+}
+
+.mitte{
+    background-color: lightgrey;
+}
+
+.rechts {
+    background-color: gold;
+}
+
+
+
+
+

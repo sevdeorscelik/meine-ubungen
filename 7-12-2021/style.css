@@ -1,0 +1,39 @@
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+
+.box p {
+    text-align: center;
+    color: white;
+}
+
+.container {
+    background-color: darkgray;
+    width: 90%;
+    height: 500px;
+    margin-top: 0 auto;
+}
+
+.box {
+    padding: 12px;
+    width: 200px;
+    height:200px;
+}
+
+.container {
+    display: flex;
+    flex-flow: row-reverse wrap;
+    /* 
+    = flex-direction: row-reverse;
+    flex-wrap: wrap;
+    */
+}
+
+.box p
+
