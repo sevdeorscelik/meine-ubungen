@@ -1,0 +1,41 @@
+#rotate {
+    background-color: var(--color-1);
+    transform: rotate(45deg);
+}
+
+#translate {
+    background-color: var(--color-2);
+    transform: translate(50px, 50px);
+}
+
+#scale {
+    background-color: var(--color-3);
+    transform: scale(120%, 50%);
+}
+
+#skew {
+    background-color: var(--color-4);
+    transform: skew(0, 20deg);
+}
+
+#combined {
+    background-color: var(--color-5);
+    transform: translate(50px,50px) ;
+    transform: skew(30deg);
+    /* transform: translate(50px,50px) skew(30deg); */
+}
+
+#translate-3d-far{
+    background-color: var(--color-1);
+    transform: perspective(200px) translateZ(-100px);
+}
+
+#translate-3d-near{
+    background-color: var(--color-5);
+    transform: perspective(200px) translateZ(0px);
+}
+
+#rotate-3d{
+    background-color: var(--color-2);
+    transform: perspective(200px) rotateY(70deg);
+}
