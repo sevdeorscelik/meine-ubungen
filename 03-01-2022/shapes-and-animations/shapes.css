@@ -1,0 +1,74 @@
+#triangle-border {
+    width: 0px;
+    height: 0px;
+    border-width: 50px;
+    border: 50px solid transparent;
+
+    background-color: transparent;
+    /* border-left-color: var(--color-1); */
+    /* border-right-color: var(--color-2);  */
+    /* border-bottom-color: var(--color-3); */
+    border-top-color: var(--color-4);
+
+    border-style: solid;
+}
+
+#circle {
+    background-color: var(--color-2);
+    border-radius: 50%;
+}
+
+#ellipse {
+    height: 50px;
+    background-color: var(--color-3);
+    border-radius: 50%;
+}
+
+#bubble {
+    background-color: var(--color-4);
+    border-radius: 0 20% 20% 20%;
+
+    position: relative;
+}
+
+#bubble:before {
+    content: " ";
+    background-color: transparent;
+    position: absolute;
+
+    /*1. meine Lösung*/
+    /* border-width: 30px;
+    border: 30px solid transparent;
+    border-left-color: var(--color-4);
+    border-style: solid;
+    left: 0;
+    bottom: -15%; */
+
+
+    /*2. Ralfs`s Lösung*/
+    border-right: 24px solid var(--color-4);
+    border-bottom: 14px solid transparent;
+    top: 0;
+    right: 100%;
+}
+
+#triangle-gradient {
+   
+    background: linear-gradient(135deg, var(--color-5) 50%, transparent 50%);
+}
+
+#triangle-clip {
+    background-color: var(--color-1);
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
+}
+
+#pentagon {
+    background-color: var(--color-2);
+    clip-path: polygon(0 0, 100% 12%, 46% 74%, 75% 100%, 0 100%, 41% 38%);
+    /*mit clip-path maker --> bennettfeely */
+}
+
+#ellipse-clip {
+    background-color: var(--color-3);
+    clip-path: ellipse(50% 25% at center );
+}
