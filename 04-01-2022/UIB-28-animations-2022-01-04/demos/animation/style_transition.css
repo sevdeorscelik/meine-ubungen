@@ -1,0 +1,37 @@
+:root {
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 1.6em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main {
+  width: 500px;
+  height: 500px;
+  background-color: cornflowerblue;
+  position: relative;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: chocolate;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 1s;
+}
+
+main:hover .box {
+  top: 0;
+  left: 400px;
+}
