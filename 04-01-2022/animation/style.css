@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+- Yellow: #fff900
+- Orange: #ff6c00
+*/
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Lato', sans-serif;
+    background-color: #262626;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+span {
+    margin: 1rem;
+    font-size: 8rem;
+    color: #484848;
+
+    animation: animate .8s linear infinite;
+}
+
+.second {
+    animation-delay: .1s;
+
+}
+.third {
+    animation-delay: .2s;
+
+}
+.fourth {
+    animation-delay: .3s;
+
+}
+.fifth {
+    animation-delay: .4s;
+
+}
+.sixth {
+    animation-delay: .5s;
+
+}
+.seventh {
+    animation-delay: .6s;
+
+}
+.eighth {
+    animation-delay: .7s;
+
+}
+
+@keyframes animate {
+
+    100%{
+        color: yellow;
+        text-shadow: 1px 4px 20px #ff6a00;
+    }
+    90%{
+        color:#484848 ;
+        text-shadow: none;
+    }
+
+}

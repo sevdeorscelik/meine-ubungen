@@ -71,4 +71,5 @@
 #ellipse-clip {
     background-color: var(--color-3);
     clip-path: ellipse(50% 25% at center );
+    /* clip-path: ellipse(50% 50% at 0 0 ); */ /*bu kod ile ceyrek daire oluyor */
 }

@@ -1,0 +1,47 @@
+#color {
+    background-color: var(--color-1);
+    transition: background-color 2s;
+}
+
+#color:hover{
+    background-color: var(--color-5);
+}
+
+#size {
+    background-color: var(--color-2);
+    transition: width .5s, height 2s;  
+}
+
+#size:hover{
+    width: 150px;
+    height: 150px;
+}
+
+#scale{
+background-color: var(--color-3);
+transition: 1s;
+}
+
+#scale:hover{
+    transform: scale(120%);
+}
+
+#rotate {
+    background-color: var(--color-4);
+    transition: transform .5s, background-color 3s;
+}
+
+#rotate:hover {
+    background-color: var(--color-1);
+    transform: rotate(45deg);
+}
+
+#timing {
+    background-color: var(--color-2);
+    transition: all 2s  cubic-bezier(0.95, 0.03, 0.29, 0.97);
+    /*linear - ease - ease-in - ease-out */
+    /* https://www.cssportal.com/css-cubic-bezier-generator/ */
+}
+#timing:active {
+transform: translate(400px, 0);
+}
