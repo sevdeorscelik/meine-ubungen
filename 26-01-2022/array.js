@@ -33,7 +33,5 @@ console.log(mitarbeiter[lengthOfAll - 1]) ;
 
 
 
-
-
 console.log(mitarbeiter);
 

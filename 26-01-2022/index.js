@@ -18,3 +18,5 @@ const contains = greetings.toLowerCase().includes("wednesday is a".toLowerCase()
 console.log(contains);
 
 
+////
+
