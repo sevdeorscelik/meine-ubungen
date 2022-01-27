@@ -27,13 +27,14 @@ console.log(greeting);
 
 //**** Arrays
 
-const dogs = ["Bello", "Rex", "Tiger", "Sniffy"];
+let dogs = ["Bello", "Rex", "Tiger", "Sniffy"];
 
 //propety:length
 dogs.length;
 
 //methode  push
-dogs.push("Flizzer");
+
+console.log("xx", dogs.push("Flizzer"));
 
 //methode pop
 dogs.pop();
