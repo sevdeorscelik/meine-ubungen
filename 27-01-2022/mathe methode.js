@@ -37,3 +37,17 @@ console.log(Math.PI);
 console.log(Math.PI * Math.pow(5, 2)); // radius 5cm -> Fläche 78 cm²
 
 console.log(Math.E);
+
+//
+let myArray = [ 1,2,3];
+console.log((Math.random() + 1 ) * 10); //10-20
+
+// boolean inversion
+
+let myBoolean = true ;
+console.log(myBoolean);
+
+
+let myBooleanNew = !myBoolean;
+console.log(myBooleanNew);
+
