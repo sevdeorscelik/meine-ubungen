@@ -56,3 +56,37 @@ carpma(3, 4);
 bölme(15, 5);
 toplama(2, 5);
 cikarma(8, 9);
+
+
+
+const nextday = (today) => {
+    switch (today.trim().toUpperCase()) {
+    case 'MON':
+    console.log(` Tomorrow is : Tue`)
+    break;
+    case 'TUE':
+    console.log(` Tomorrow is : Wed`)
+    break;
+    case 'WED':
+    console.log(` Tomorrow is : Thurs`)
+    break;
+    case 'THURS':
+    console.log(` Tomorrow is : Fri`)
+    break;
+    case 'FRI':
+    console.log(` Tomorrow is : Sat`)
+    break;
+    case 'SAT':
+    console.log(` Tomorrow is : Sun`)
+    break;
+    case 'SUN':
+    console.log(` Tomorrow is : Mon`)
+    break;
+    default:
+    console.log('Unknown Day')
+    break;
+    }
+    
+    }
+    
+    nextday('SuN') 
