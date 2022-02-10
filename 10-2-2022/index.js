@@ -32,6 +32,90 @@ Math.abs(-4) //4
 Math.sqrt(9) // 3 - karekök alir
 
 
+//.
+//.
+//.
 
+//Loops
+
+const d = new Date() ;
+let hour = d.getHours();
+
+while(hour >= 12 && hour < 14) {
+    console.log("Mahlzeit");;
+    hour = d.getHours();
+   
+}
+
+
+//mit for
+for (let index = 0; index < array.length; index++) {
+  console.log(array[index]);   
+}
+
+//for-in
+//index in Array
+for (let index in array) {
+   console.log(array[index]);
+}
+
+//for-of
+//element im Array
+for (let element of array) {
+    console.log(element);
+}
+
+//functionen
+const numbers = [ 1,7,5,2,9,7,3];
+
+const sortArray = () => {
+//TODO: Algorithmus
+};
+
+const findBiggestAndSmallestNumbers = () => {
+    //TODO: Math.max(...numbers) und Math.min(...numbers);
+}
+
+const calcAverage = () => {
+    //TODO: Summe/Length
+};
+
+
+//function mit parameters
+
+const myFunctionWithParam = (param1) => {
+    console.log(`Mr./Mrs. ${param1} do you job!`);
+}
+
+//Beispiel
+const greetEmployees = (radomArray) => {
+    for(let person of randomArray) {
+        console.log(`Good morning ${person}`);
+    }
+}
+
+greetEmployees(myArray)
+
+
+//functionen mit returns
+//...
+
+
+//schleifen in schleifen
+
+let namesInCompany = [
+    ["Nancy", "Sammy", "Greg", "Oscar", "Francine", "John"],
+    ["Flinn", "Peter", "Robert", "Ana", "Jenny"]
+];
+
+for(let unterarrayIndex = 0; unterarrayIndex < namesInCompany.length; unterarrayIndex++) {
+
+    for(let employeeIndex = 0; employeeIndex < namesInCompany[unterarrayIndex][employeeIndex]; ){
+        console.log(namesInCompany[unterarrayIndex][employeeIndex]);
+    }
+}
+
+
+//devami lessonde material 10-2-2022
 
 
