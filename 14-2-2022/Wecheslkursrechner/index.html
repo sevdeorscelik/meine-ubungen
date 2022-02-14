@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Wechselkursrechner</h1>
+
+    <button onClick="printHello()">Say Hello!</button>
+
+    <p id="greeting"></p>
+
+    <h2>Calculator</h2>
+
+    <input id="euroBetrag" type="number" placeholder="Gibt bitte deinen Euro Wert an." value="0">
+
+    <button onClick="calcDollar()">Berechne in Dollar</button>
+
+    <p id="dollarValue"></p>
+
+    <h2>Notiz</h2>
+    <ul>
+        <li>Buttons bekommen ein on-click-Event, damit eine Funktion in JavaScript ausgeführt werden kann.</li>
+        <li>Das on-click-Event verlinkte eine Funktion in JavaScript.</li>
+        <li>In der Funktion können HTML-Werte mittels document.getElementById("ID_NAME").innerHTML ausgelesen werden.</li>
+        <li>In der Funktion können Input Values mittels document.getElementById("ID_NAME").value augelesen werden. </li>
+    </ul>
+    <script src="index.js"></script>
+</body>
+</html>
