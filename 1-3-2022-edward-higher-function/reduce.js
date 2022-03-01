@@ -21,3 +21,17 @@ const numberString = nums.reduce((acc, num, index, arr) => {
 console.log(numberString);
 console.log(nums.join("-"));
 
+
+//reduce ile sayilarin herbirini  2 ile carpma
+
+const doublesWithReduce = nums.reduce((acc, num) => {
+
+    // acc.push("hallo")
+    //  return acc //[ 'hallo', 'hallo', 'hallo', 'hallo', 'hallo' ]
+ 
+    acc.push(num*2)
+    return acc  //[ 2, 4, 6, 8, 10 ]
+ 
+ }, [])
+ console.log(doublesWithReduce);
+
