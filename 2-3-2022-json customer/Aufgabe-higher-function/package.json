@@ -1,0 +1,21 @@
+{
+  "name": "exercise-302-pb-data-practicearrayfunctionswithmodules",
+  "version": "1.0.0",
+  "description": "Use JavaScript modules to practice using the ES6 higher-order functions.",
+  "type" : "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edwardtanguay/Exercise-302-PB-DATA-practiceArrayFunctionsWithModules.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edwardtanguay/Exercise-302-PB-DATA-practiceArrayFunctionsWithModules/issues"
+  },
+  "homepage": "https://github.com/edwardtanguay/Exercise-302-PB-DATA-practiceArrayFunctionsWithModules#readme"
+}
