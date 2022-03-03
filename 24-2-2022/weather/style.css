@@ -1,0 +1,40 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    color: white;
+}
+
+main {
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    background: linear-gradient(0.25turn, rgb(25,167,210)
+    , rgb(134,209,253)
+    );
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+.inputContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 25%;
+}
+
+button {
+    width: 25%;
+}
