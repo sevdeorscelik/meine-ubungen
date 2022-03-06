@@ -8,6 +8,10 @@ import {
     products
 } from './products.js';
 
+
+const title = (num) => {
+    console.log(`========================     Aufgabe ${num}     ========================================================================================================================`);
+}
 //console.log(`There are ${customers.length} customers.`);
 //console.log(`There are ${orders.length} customers.`);
 //console.log(`There are ${products.length} customers.`);
@@ -115,3 +119,17 @@ const getProductsOrderedByCustomer2 = (customerId) => {
 	}
 };
 console.log(getProductsOrderedByCustomer2('AROUT'));
+
+
+title(8)
+
+//
+const getSummePersKunde = (id ) => {
+
+    const firstOrder = orders.find(m => m.customerID === id)
+    
+    
+    return firstOrder
+    }
+    
+    console.log(getSummePersKunde("ALFKI"));
