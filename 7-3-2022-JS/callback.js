@@ -92,6 +92,7 @@ const getData = () => {
 // application
 console.log('first task');
 getData();
+console.log('second task');
+getData();
 console.log('third task');
-
  
