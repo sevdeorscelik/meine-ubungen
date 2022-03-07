@@ -116,7 +116,7 @@ datenZeigen(datenHolen)
 
 
 ////////////////////////////
-7u
+
 const esittir = (aufgabeNum) => {
     console.log(`=============== Aufgabe ${aufgabeNum} ==========`);
 }
