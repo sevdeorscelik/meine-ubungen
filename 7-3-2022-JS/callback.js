@@ -62,7 +62,7 @@ caller(giveLunchMenu);
 
 
 // program akisini hareketli tutmak icin
-//örnek :
+//örnek****anlamadim :
 
 const getDataFromDistantServer = callback => {
     setTimeout(() => {
@@ -96,3 +96,36 @@ console.log('second task');
 getData();
 console.log('third task');
  
+
+//
+const datenHolen = () => {
+    setTimeout(() => {
+        console.log(`Merhaba Semih`);
+        
+    }, 2000);
+    return 'DATEN'
+}
+
+const datenZeigen = (callbackFuncs) => {
+    let ergebnis = callbackFuncs();
+    console.log(ergebnis);
+}
+
+datenZeigen(datenHolen)
+
+
+
+////////////////////////////
+7u
+const esittir = (aufgabeNum) => {
+    console.log(`=============== Aufgabe ${aufgabeNum} ==========`);
+}
+
+
+const görev = (nummer, sevde) => {
+    sevde(nummer)
+}
+
+görev(3, esittir)
+görev(25, esittir)
+
