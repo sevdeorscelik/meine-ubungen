@@ -66,8 +66,8 @@ class Magazine extends Publication {
 
 
 const book = Book.instantiateBook('Sapiens', 'Yuval Harari', 543);
-console.log(book);
-console.log(book.displayAsLine());
+console.log(book); //object
+console.log(book.displayAsLine()); //string
 console.log(book.displayAsBlock());
 
 
