@@ -15,9 +15,10 @@ const car1 = new Car('Audi', 'dark-blue', '2014')
 console.log(car1);
 console.log(car1.display());
 
-const car2 = new Car('Renoult', 'white', '2015')
+const car2 = new Car('Renault', 'white', '2015')
 console.log(car2);
 console.log(car2.display());
+
 
 
 //Cars
@@ -40,6 +41,11 @@ cars.addCar(car1)
 cars.addCar(car2)
 console.log(cars);
 console.log(cars.listCars());
+
+
+
+//CHALLENGE
+
 
 
 
