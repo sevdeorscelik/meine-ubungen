@@ -1,1 +1,4 @@
 - Live sass compiler aktiviert
+- create test tools.js module 
+- in HTML: add type="module" to script tag
+
