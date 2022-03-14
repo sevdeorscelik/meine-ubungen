@@ -1,0 +1,30 @@
+body {
+  background: #333;
+  color: #bbb;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body h1 {
+  color: yellow;
+}
+
+.flashcards {
+  background: #444;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.flashcards .flashcard {
+  background: #555;
+  margin: 0 0 10px 0;
+  padding: 3px;
+  font-size: .9rem;
+}
+
+.flashcards .flashcard .back {
+  background: #111;
+  font-family: 'Courier New', Courier, monospace;
+  color: orange;
+  padding: 3px;
+}
+/*# sourceMappingURL=main.css.map */
