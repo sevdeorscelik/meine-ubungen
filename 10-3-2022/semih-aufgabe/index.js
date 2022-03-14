@@ -28,6 +28,7 @@ console.log(employee1.generatePaySlip());
 //2
 
 class Manager extends Employee{
+    
 
 
 }
