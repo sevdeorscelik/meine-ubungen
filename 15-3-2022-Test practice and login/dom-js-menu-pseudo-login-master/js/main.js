@@ -1,6 +1,9 @@
 // import { users } from './data/users.js';
 import { pages } from './data/pages.js';
 
+// globals (later class properties)
+let currentPageIdCode = 'home';
+
 // general functions
 const pageManager = (currentPageIdCode) => {
 	pageItems.forEach(pageItem => {
@@ -46,4 +49,4 @@ const pageItems = pages.map(page => {
 })
 
 // PAGE LOAD
-pageManager('home');
+pageManager(currentPageIdCode);

@@ -1,0 +1,43 @@
+body {
+	padding: 20px;
+}
+
+.starControl {
+	background: #eee;
+	width: 200px;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.stars {
+	display: flex;
+}
+
+.stars i {
+	text-shadow: 1px 1px 1px #333;
+	font-size: 1.9rem;
+	margin-right: 10px;
+	color: goldenrod;
+}
+
+.fa-star, .fa-star-o {
+	cursor: pointer;
+}
+
+.number {
+	font-size: 7rem;
+	text-align: center;
+}
+
+.content {
+	display: grid;
+	grid-template-columns: 250px 250px 250px 250px;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	gap: 6px 0px;
+	grid-template-areas:
+		". . . ."
+		". . . ."
+		". . . ."
+		". . . .";
+}

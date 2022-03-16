@@ -1,0 +1,10 @@
+- x make users
+- x make login
+
+
+
+-currentPageIdCode global
+-create currentUser object
+-make menu respond ti currentUser object    
+    -when nobody logged in: show Home, 
+    -login-when nick logged in: Home, login
