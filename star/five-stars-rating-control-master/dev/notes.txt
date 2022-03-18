@@ -1,0 +1,25 @@
+- x add dynamic JavaScript
+- x display number of starts that is in variable: number
+- x when click on star, change the number
+	- x when you click on star, show alert test
+	- x when you click on star, show that star's number
+	- x change number in onStars
+- x when click a star, change number of stars filled
+	- x refactor code to function: createStars()
+	- x call createStars on page load
+	- x call createStars on star click
+- x implement local storage to remember star number on page reload
+	- x fix bug, stars disappear
+	- x understand bug
+- x refactor into a class
+	- x move functions into a module
+	- x turn functions into class
+- x turn onclick into addEventListener
+- x instantiate
+- x create four
+- x display in grid
+- .. fix localStorage
+
+- load npm module (lodash, moment) and test modules
+
+

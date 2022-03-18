@@ -30,6 +30,11 @@
 	</div>
 	<div class="info">
 		<p>This is the info page.</p>
+		<ul>
+			<li>111</li>
+			<li>222</li>
+			<li>333</li>
+		</ul>
 	</div>
 	<div class="admin">
 		<p>This is the admin page.</p>
@@ -37,20 +42,18 @@
 	<div class="login">
 		<form>
 			<fieldset>
-				<legend>Please log in</legend>
-				<label for="fullName">Name:</label>
-                <input type="text"
-                    name="fullName"
-                    id="fullName">
-				<br>
-				<label for="phone">Phone:</label>
-                <input type="tel"
-                    name="phone"
-                    id="phone">
-				<br>
-				<input type="submit"
-					id="submit"
-					value="Register">
+				<legend>Please log in:</legend>
+				<div class="row">
+					<label htmlFor="name">Login</label>
+					<input type="text" />
+				</div>
+				<div class="row">
+					<label htmlFor="phone">Password</label>
+					<input type="password" />
+				</div>
+				<div class="buttonRow">
+					<button>Login</button>
+				</div>
 			</fieldset>
 		</form>
 	</div>
