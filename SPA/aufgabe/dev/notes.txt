@@ -1,0 +1,13 @@
+Make page where user can click a button that changes font family, font size, and color of the paragraph text
+Make a page with a form that has First Name and Last Name, when button is clicked, first and last name are displayed on page
+Make a page where when user clicks in input field, it changes the background of a paragraph
+Write a JavaScript function to get the value of the href, hreflang, rel, target, and type attributes of the specified link.
+Make a page with a button that adds a row to a table, each row has an edit button which allows you to change the value of each cell in the row
+Make a dropdown control with numerous entries, make a button which removes the currently selected entry
+Write a form with button that calculates the volume of a sphere
+Create a page that has a button which displays a random photo
+Create a page that has a button that toggles the highlighting of strong tags on the page
+Create a page that shows the current width and height of the window as it is resized
+Write a HTML page with JavaScript that has a button which changes the text in a paragraph element
+Move the JavaScript from the HTML page to its own file
+Make a JS/DOM single-page-application site which has a navigation menu at the top with the names of pages, and each time you click a page name, it shows the appropriate page

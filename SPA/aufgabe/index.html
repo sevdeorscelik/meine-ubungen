@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/main.js" defer></script>
+    <title>Document</title>
+    <style>
+        * {
+            margin: 3px;
+        }
+
+        td {
+            background-color: gray;
+            color: whitesmoke;
+            padding: 5px;
+
+        }
+
+        h1 {
+            display: inline-block;
+        }
+
+        span {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <span>
+        <h1>DOM - Aufgabe</h1> 28/03/2022
+    </span>
+    <br><br><hr><br>
+    <section>
+        <button class="btn-1">Change Text</button>
+        <p class="p-1">This is a paragraph.</p>
+    </section>
+    <br>
+    <hr>
+    <br>
+    <section>
+        <form action="">
+            <label for="">First Name : </label>
+            <input type="text" class="first-name" value="">
+            <br>
+            <label for="">Last Name : </label>
+            <input type="text" class="last-name" value="">
+            <br><br>
+            <button class="btn-2">Show</button>
+            <button class="clear-btn">Clear</button>
+            <p class="full-name"></p>
+        </form>
+    </section>
+
+    <br>
+    <hr>
+    <br>
+
+    <section>
+        <table id="my-table">
+            <button class="btn-3">Add row</button>
+
+            <br><br>
+            <tr>
+                <td>Jon</td>
+                <td>Wallaby</td>
+                <td><button class="btn-edit">Edit</button></td>
+                <td><button>Save</button></td>
+
+            </tr>
+            <tr>
+                <td>Jan</td>
+                <td>Smyth</td>
+                <td><button class="btn-edit">Edit</button></td>
+                <td><button>Save</button></td>
+            </tr>
+        </table>
+    </section>
+    <br><hr><br>
+    <section>
+        <h2>Colors</h2>
+        <input type="text" class="new-item" style="width: 3.3rem;">
+        <button class="add-color-btn">Add Color</button>
+        <br>
+        <select class="colors">
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+            <option value="yellow">Yellow</option>
+            <option value="purple">Purple</option>
+        </select>
+        <button class="btn-delete">Delete Color</button>
+    </section>
+    <br><hr><br>
+    <section>
+        <h2>Images</h2>
+        <button class="btn-show-photo">Show Random Photo</button>
+        <div class="content">
+            
+        </div>
+    </section>
+
+
+</body>
+
+</html>
