@@ -11,10 +11,21 @@ body {
 
 .employee .name {
   color: brown;
+  cursor: pointer;
+}
+
+.employee .address {
+  display: none;
 }
 
 .employee .notes {
+  margin-top: 5px;
   font-size: .6rem;
   font-style: italic;
+}
+
+.employee .territories {
+  font-size: .6rem;
+  margin-top: 5px;
 }
 /*# sourceMappingURL=main.css.map */

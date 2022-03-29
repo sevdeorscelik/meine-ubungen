@@ -12,16 +12,35 @@ employees.forEach(employee => {
         ${employee.firstName} ${employee.lastName}
         </div>
         <div class="address">
-        <div class="street"> ${employee.address.street} </div>
-        <div class="cityState"> ${employee.address.city}, ${employee.address.region} ${employee.address.postalCode}</div>
-        <div class="country"> ${employee.address.country}</div>
-        <div class="notes">${employee.notes}</div>
-        
+            
+            <div class="street"> ${employee.address.street} </div>
+            <div class="cityState"> ${employee.address.city}, ${employee.address.region} ${employee.address.postalCode}</div>
+            <div class="country"> ${employee.address.country}</div>
         </div>
+
+        <div class="notes">${employee.notes}</div>
+        <div class="territories">Territory codes: ${employee.territoryIDs.join(', ')}</div>
+        
     </div>
     `
 })
 
+const nameElems = document.querySelectorAll('.employee .name')
+//const addressElems = document.querySelectorAll('.employee .address')
+
+
+
+
+nameElems.forEach(nameElem => {
+    nameElem.addEventListener('click', () => {
+        
+        const addressElem = nameElem.nextElementSibling;
+        //addressElem.style.display = addressElem.style.display === 'block' ? 'none' : 'block';
+        addressElem.classList.toggle('address')
+        addressElem.style.margin = '10px 0'
+
+    })    
+});
 
 
 
