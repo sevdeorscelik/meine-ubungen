@@ -3,6 +3,8 @@ const carElem = document.querySelector('#car')
 const carTextElem = document.querySelector('.car-text')
 const catTextElem = document.querySelector('.cat-text')
 const catElem = document.querySelector('#cat')
+const sunElem = document.querySelector('.sun-icon')
+const sunTextElem =document.querySelector('.sun-text')
 
 carElem.addEventListener('dragstart', (e) => {
     
@@ -12,18 +14,36 @@ carElem.addEventListener('dragstart', (e) => {
 catElem.addEventListener('dragstart', (e)=>{
     e.dataTransfer.setData('cat',catElem.id )
 })
+
+sunElem.addEventListener('dragstart', (e) => {
+    e.dataTransfer.setData('sun', sunElem.id)
+}) 
+
+
+//-----------------------------------------------------------------------------------
+
 carTextElem.addEventListener('dragover', (e) => {
     e.preventDefault()
 })
+
 catTextElem.addEventListener('dragover', (e) => {
     e.preventDefault()
 })
 
+sunTextElem.addEventListener('dragover', (e) => {
+    e.preventDefault()
+})
+
+//----------------------------------------------------------------------------------
+
 carTextElem.addEventListener('drop', (e) => {
     e.preventDefault()
+
     let id = e.dataTransfer.getData('car')
-    carTextElem.innerHTML = ''
+    
+    
     carTextElem.appendChild(document.getElementById(id))
+    //carTextElem.innerHTML = ''
     
 
     //carTextElem.style.backgroundColor = 'greenyellow'
@@ -33,10 +53,18 @@ carTextElem.addEventListener('drop', (e) => {
 catTextElem.addEventListener('drop', (e) => {
     e.preventDefault()
     let id = e.dataTransfer.getData('cat')
-    catTextElem.innerHTML = ''
+    
+
     catTextElem.appendChild(document.getElementById(id))
-    //carTextElem.style.backgroundColor = 'greenyellow'
-   
+    //catTextElem.innerHTML = ''
+    //catTextElem.style.color = 'greenyellow' 
     
-    
+})
+
+sunTextElem.addEventListener('drop', (e) => {
+    e.preventDefault()
+    let id = e.dataTransfer.getData('sun')
+
+    sunTextElem.appendChild(document.getElementById(id))
+    //sunTextElem.innerHTML=''
 })

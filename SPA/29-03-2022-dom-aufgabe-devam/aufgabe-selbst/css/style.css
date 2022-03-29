@@ -1,8 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: bisque;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 100vh;
 }
 
-body .car-icon {
+body .icons {
+  line-height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+}
+
+body .icons .car-icon {
+  display: inline;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 200px;
+  height: 200px;
+  font-size: 5rem;
+  cursor: pointer;
+  background-color: bisque;
+}
+
+body .icons .cat-icon {
   display: inline;
   text-align: center;
   width: 200px;
@@ -12,7 +48,7 @@ body .car-icon {
   background-color: bisque;
 }
 
-body .cat-icon {
+body .icons .sun-icon {
   display: inline;
   text-align: center;
   width: 200px;
@@ -22,23 +58,60 @@ body .cat-icon {
   background-color: bisque;
 }
 
-body .container .car-text {
-  width: 200px;
-  height: 200px;
-  text-align: center;
-  font-size: 5rem;
-  position: fixed;
-  right: 50px;
-  top: 50px;
+body .texts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  float: right;
+  line-height: 200px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2rem;
 }
 
-body .container .cat-text {
+body .texts div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2rem;
+}
+
+body .texts div p {
+  font-size: 5rem;
+}
+
+body .texts div .car-text {
   width: 200px;
   height: 200px;
   text-align: center;
   font-size: 5rem;
-  position: fixed;
-  right: 50px;
-  top: 150px;
+  border: dotted 5px black;
+}
+
+body .texts div .cat-text {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  font-size: 5rem;
+  border: dotted 5px black;
+}
+
+body .texts div .sun-text {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  font-size: 5rem;
+  border: dotted 5px black;
 }
 /*# sourceMappingURL=style.css.map */
