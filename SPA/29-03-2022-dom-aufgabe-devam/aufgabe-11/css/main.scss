@@ -1,7 +1,7 @@
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
-}
+}  
+
 
 .employee {
     background-color: #eee;
@@ -14,7 +14,7 @@ body {
         cursor: pointer;
         
     }
-    .address{
+    address{
         
        display: none;   
     }
@@ -26,5 +26,13 @@ body {
     .territories{
         font-size: .6rem;
         margin-top: 5px;
+    }
+    .phone{
+        font-size: 10px;
+        background-color: brown;
+        color: bisque;
+        display: inline;
+        padding: 3px;
+        border-radius: 5px;
     }
 }

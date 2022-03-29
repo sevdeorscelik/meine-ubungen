@@ -1,0 +1,62 @@
+body{
+    background-color: bisque;
+
+    .car-icon{
+            display: inline;
+        text-align: center;
+
+        width: 200px;
+            height: 200px;
+        
+        font-size: 5rem; 
+        //border: solid 1px red;
+        cursor: pointer;
+        background-color: bisque;
+    }
+
+    .cat-icon{
+        display: inline;
+        text-align: center;
+
+        width: 200px;
+            height: 200px;
+        
+        font-size: 5rem; 
+        //border: solid 1px red;
+        cursor: pointer;
+        background-color: bisque;
+    }
+
+    .container{
+        
+        .car-text {
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            
+            
+            font-size: 5rem;
+           // border: solid 1px red;
+            position: fixed;
+            right: 50px;
+            top: 50px;
+
+           
+        }
+        .cat-text{
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            
+            
+            font-size: 5rem;
+           // border: solid 1px red;
+            position: fixed;
+            right: 50px;
+            top: 150px;
+
+        }
+
+    }
+   
+}

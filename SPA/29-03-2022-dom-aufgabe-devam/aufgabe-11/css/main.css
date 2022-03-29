@@ -14,7 +14,7 @@ body {
   cursor: pointer;
 }
 
-.employee .address {
+.employee address {
   display: none;
 }
 
@@ -27,5 +27,14 @@ body {
 .employee .territories {
   font-size: .6rem;
   margin-top: 5px;
+}
+
+.employee .phone {
+  font-size: 10px;
+  background-color: brown;
+  color: bisque;
+  display: inline;
+  padding: 3px;
+  border-radius: 5px;
 }
 /*# sourceMappingURL=main.css.map */

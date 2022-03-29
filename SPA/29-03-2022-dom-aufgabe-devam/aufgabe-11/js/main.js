@@ -2,7 +2,7 @@ const contentElem = document.querySelector('.content')
 const head = document.querySelector('h1')
 const employees = getEmployees()
 
-contentElem.innerHTML = `There are ${employees.length} employees <hr>`;
+contentElem.innerHTML = `There are ${employees.length} employees <hr><hr>`;
 
 employees.forEach(employee => {
     contentElem.innerHTML += `
@@ -20,6 +20,7 @@ employees.forEach(employee => {
 
         <div class="notes">${employee.notes}</div>
         <div class="territories">Territory codes: ${employee.territoryIDs.join(', ')}</div>
+        <div class="phone">Tel: ${employee.address.phone} </div>
         
     </div>
     `
@@ -35,8 +36,11 @@ nameElems.forEach(nameElem => {
     nameElem.addEventListener('click', () => {
         
         const addressElem = nameElem.nextElementSibling;
+        
         //addressElem.style.display = addressElem.style.display === 'block' ? 'none' : 'block';
+
         addressElem.classList.toggle('address')
+
         addressElem.style.margin = '10px 0'
 
     })    

@@ -1,0 +1,44 @@
+body {
+  background-color: bisque;
+}
+
+body .car-icon {
+  display: inline;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  font-size: 5rem;
+  cursor: pointer;
+  background-color: bisque;
+}
+
+body .cat-icon {
+  display: inline;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  font-size: 5rem;
+  cursor: pointer;
+  background-color: bisque;
+}
+
+body .container .car-text {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  font-size: 5rem;
+  position: fixed;
+  right: 50px;
+  top: 50px;
+}
+
+body .container .cat-text {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  font-size: 5rem;
+  position: fixed;
+  right: 50px;
+  top: 150px;
+}
+/*# sourceMappingURL=style.css.map */
