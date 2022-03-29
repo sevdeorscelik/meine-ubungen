@@ -20,7 +20,8 @@ employees.forEach(employee => {
 
         <div class="notes">${employee.notes}</div>
         <div class="territories">Territory codes: ${employee.territoryIDs.join(', ')}</div>
-        <div class="phone">Tel: ${employee.address.phone} </div>
+        <div class="phone none"> Tel: ${employee.address.phone} </div>
+        <button class='show '> Open/Close </button>
         
     </div>
     `
@@ -45,6 +46,17 @@ nameElems.forEach(nameElem => {
 
     })    
 });
+
+const showElems = document.querySelectorAll('.show')
+
+showElems.forEach( showElem => {
+    showElem.addEventListener('click', () => {
+        const phoneElem = showElem.previousElementSibling;
+
+        phoneElem.classList.toggle('none')
+    })
+});
+
 
 
 

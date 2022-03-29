@@ -2,39 +2,49 @@ body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.employee {
+body .employee {
   background-color: #eee;
   margin: 0 0 10px 0;
   padding: 10px;
   border-radius: 5px;
 }
 
-.employee .name {
+body .employee .name {
   color: brown;
   cursor: pointer;
 }
 
-.employee address {
+body .employee .address {
   display: none;
 }
 
-.employee .notes {
+body .employee .notes {
   margin-top: 5px;
   font-size: .6rem;
   font-style: italic;
 }
 
-.employee .territories {
+body .employee .territories {
   font-size: .6rem;
   margin-top: 5px;
 }
 
-.employee .phone {
+body .employee .phone {
   font-size: 10px;
   background-color: brown;
   color: bisque;
-  display: inline;
   padding: 3px;
   border-radius: 5px;
+}
+
+body .employee .show {
+  font-size: 10px;
+  background-color: aquamarine;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+body .employee .none {
+  visibility: hidden;
 }
 /*# sourceMappingURL=main.css.map */
