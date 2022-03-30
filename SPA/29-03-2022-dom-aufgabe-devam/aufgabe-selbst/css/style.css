@@ -11,9 +11,8 @@ body {
 body header h1 {
   text-align: center;
   font-size: 3rem;
-  background: #FFB3E0;
-  background: -webkit-gradient(linear, left top, right top, color-stop(16%, #FFB3E0), color-stop(35%, #FFFF00), color-stop(57%, #05C1FF), color-stop(81%, #4DFF8E), to(#808DCF));
-  background: linear-gradient(to right, #FFB3E0 16%, #FFFF00 35%, #05C1FF 57%, #4DFF8E 81%, #808DCF 100%);
+  background: #FF0000;
+  background: radial-gradient(circle farthest-corner at center center, #FF0000 0%, #FFFF00 25%, #05C1FF 50%, #FFFF00 75%, #FF0000 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -23,8 +22,9 @@ body main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 body main .icons {
