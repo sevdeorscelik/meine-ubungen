@@ -1,0 +1,7 @@
+-create advertisement component(function)
+    -export it
+    -type="module" eklemek önemli
+    -export yazmak zorundayiz
+    -export default nedir?
+    -
+-
