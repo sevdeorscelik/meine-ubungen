@@ -6,119 +6,135 @@
 
 body {
     background-color: bisque;
-    display: flex;
-    justify-content: space-around;
     height: 100vh;
 
-
-    .icons {
-        line-height: 200px;
-
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-
-
-        .car-icon {
-            display: inline;
+    header {
+        h1 {
             text-align: center;
-            justify-content: center;
-
-
-            width: 200px;
-            height: 200px;
-
-            font-size: 5rem;
-            //border: solid 1px red;
-            cursor: pointer;
-            background-color: bisque;
-
+            font-size: 3rem;
+            background: #FFB3E0;
+            background: -webkit-linear-gradient(to right, #FFB3E0 16%, #FFFF00 35%, #05C1FF 57%, #4DFF8E 81%, #808DCF 100%);
+            background: -moz-linear-gradient(to right, #FFB3E0 16%, #FFFF00 35%, #05C1FF 57%, #4DFF8E 81%, #808DCF 100%);
+            background: linear-gradient(to right, #FFB3E0 16%, #FFFF00 35%, #05C1FF 57%, #4DFF8E 81%, #808DCF 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
-
-        .cat-icon {
-            display: inline;
-            text-align: center;
-
-            width: 200px;
-            height: 200px;
-
-            font-size: 5rem;
-            //border: solid 1px red;
-            cursor: pointer;
-            background-color: bisque;
-
-        }
-
-        .sun-icon {
-            display: inline;
-            text-align: center;
-
-            width: 200px;
-            height: 200px;
-
-            font-size: 5rem;
-            //border: solid 1px red;
-            cursor: pointer;
-            background-color: bisque;
-
-        }
-
     }
 
-
-
-    .texts {
-
+    main {
+        margin-top: 5rem;
         display: flex;
-        flex-direction: column;
-        float: right;
-        line-height: 200px;
-        align-items: center;
-        gap: 2rem;
+        justify-content: space-around;
 
+        .icons {
+            line-height: 200px;
 
-        div {
             display: flex;
-            justify-content: center;
+            flex-direction: column;
+            gap: 2rem;
+
+
+            .car-icon {
+                display: inline;
+                text-align: center;
+                justify-content: center;
+
+
+                width: 200px;
+                height: 200px;
+
+                font-size: 5rem;
+                //border: solid 1px red;
+                cursor: pointer;
+                background-color: bisque;
+
+            }
+
+            .cat-icon {
+                display: inline;
+                text-align: center;
+
+                width: 200px;
+                height: 200px;
+
+                font-size: 5rem;
+                //border: solid 1px red;
+                cursor: pointer;
+                background-color: bisque;
+
+            }
+
+            .sun-icon {
+                display: inline;
+                text-align: center;
+
+                width: 200px;
+                height: 200px;
+
+                font-size: 5rem;
+                //border: solid 1px red;
+                cursor: pointer;
+                background-color: bisque;
+
+            }
+
+        }
+
+
+
+        .texts {
+
+            display: flex;
+            flex-direction: column;
+            float: right;
+            line-height: 200px;
             align-items: center;
             gap: 2rem;
 
 
-            p {
-                font-size: 5rem;
+            div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 2rem;
 
+
+                p {
+                    font-size: 5rem;
+
+                }
+
+                .car-text {
+
+                    width: 200px;
+                    height: 200px;
+                    text-align: center;
+
+                    font-size: 5rem;
+                    border: dotted 5px black;
+                }
+
+                .cat-text {
+                    width: 200px;
+                    height: 200px;
+                    text-align: center;
+
+                    font-size: 5rem;
+                    border: dotted 5px black;
+
+                }
+
+                .sun-text {
+                    width: 200px;
+                    height: 200px;
+                    text-align: center;
+
+                    font-size: 5rem;
+                    border: dotted 5px black;
+                }
             }
 
-            .car-text {
-
-                width: 200px;
-                height: 200px;
-                text-align: center;
-
-                font-size: 5rem;
-                border: dotted 5px black;
-            }
-
-            .cat-text {
-                width: 200px;
-                height: 200px;
-                text-align: center;
-
-                font-size: 5rem;
-                border: dotted 5px black;
-
-            }
-
-            .sun-text {
-                width: 200px;
-                height: 200px;
-                text-align: center;
-
-                font-size: 5rem;
-                border: dotted 5px black;
-            }
         }
-
     }
 
 }

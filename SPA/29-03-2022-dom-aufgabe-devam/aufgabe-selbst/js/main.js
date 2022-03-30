@@ -43,10 +43,8 @@ carTextElem.addEventListener('drop', (e) => {
     
     
     carTextElem.appendChild(document.getElementById(id))
-    //carTextElem.innerHTML = ''
-    
 
-    //carTextElem.style.backgroundColor = 'greenyellow'
+    carTextElem.style.backgroundColor = 'green'
  
 })
 
@@ -54,10 +52,8 @@ catTextElem.addEventListener('drop', (e) => {
     e.preventDefault()
     let id = e.dataTransfer.getData('cat')
     
-
     catTextElem.appendChild(document.getElementById(id))
-    //catTextElem.innerHTML = ''
-    //catTextElem.style.color = 'greenyellow' 
+    catTextElem.style.backgroundColor = 'green'
     
 })
 
@@ -66,5 +62,5 @@ sunTextElem.addEventListener('drop', (e) => {
     let id = e.dataTransfer.getData('sun')
 
     sunTextElem.appendChild(document.getElementById(id))
-    //sunTextElem.innerHTML=''
+    sunTextElem.style.backgroundColor = 'green'
 })

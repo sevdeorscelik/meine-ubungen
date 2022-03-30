@@ -5,15 +5,29 @@
 
 body {
   background-color: bisque;
+  height: 100vh;
+}
+
+body header h1 {
+  text-align: center;
+  font-size: 3rem;
+  background: #FFB3E0;
+  background: -webkit-gradient(linear, left top, right top, color-stop(16%, #FFB3E0), color-stop(35%, #FFFF00), color-stop(57%, #05C1FF), color-stop(81%, #4DFF8E), to(#808DCF));
+  background: linear-gradient(to right, #FFB3E0 16%, #FFFF00 35%, #05C1FF 57%, #4DFF8E 81%, #808DCF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+body main {
+  margin-top: 5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  height: 100vh;
 }
 
-body .icons {
+body main .icons {
   line-height: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -25,7 +39,7 @@ body .icons {
   gap: 2rem;
 }
 
-body .icons .car-icon {
+body main .icons .car-icon {
   display: inline;
   text-align: center;
   -webkit-box-pack: center;
@@ -38,7 +52,7 @@ body .icons .car-icon {
   background-color: bisque;
 }
 
-body .icons .cat-icon {
+body main .icons .cat-icon {
   display: inline;
   text-align: center;
   width: 200px;
@@ -48,7 +62,7 @@ body .icons .cat-icon {
   background-color: bisque;
 }
 
-body .icons .sun-icon {
+body main .icons .sun-icon {
   display: inline;
   text-align: center;
   width: 200px;
@@ -58,7 +72,7 @@ body .icons .sun-icon {
   background-color: bisque;
 }
 
-body .texts {
+body main .texts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -74,7 +88,7 @@ body .texts {
   gap: 2rem;
 }
 
-body .texts div {
+body main .texts div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -87,11 +101,11 @@ body .texts div {
   gap: 2rem;
 }
 
-body .texts div p {
+body main .texts div p {
   font-size: 5rem;
 }
 
-body .texts div .car-text {
+body main .texts div .car-text {
   width: 200px;
   height: 200px;
   text-align: center;
@@ -99,7 +113,7 @@ body .texts div .car-text {
   border: dotted 5px black;
 }
 
-body .texts div .cat-text {
+body main .texts div .cat-text {
   width: 200px;
   height: 200px;
   text-align: center;
@@ -107,7 +121,7 @@ body .texts div .cat-text {
   border: dotted 5px black;
 }
 
-body .texts div .sun-text {
+body main .texts div .sun-text {
   width: 200px;
   height: 200px;
   text-align: center;
