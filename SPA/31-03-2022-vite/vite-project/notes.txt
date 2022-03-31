@@ -1,0 +1,6 @@
+-use to create JavaScript/DOM sites or TypeScript/DOM sites
+-create site with npm create vite and choose from the menu
+-after creating, install node_modules with npm i
+-start site with npm run dev
+-be sure to put all images in e.g. public/images/products/... and reference as <img src="images/products/..."/> in order for images to work on Netlify
+-you can install Sass simply with npm i sass and changing the file names from .css to .scss`
