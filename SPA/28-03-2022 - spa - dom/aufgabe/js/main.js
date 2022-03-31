@@ -150,4 +150,24 @@ btnShowPhotoElem.addEventListener('click', () => {
     contentElem.innerHTML = `<img src="images/${photo.fileName}" style="width:${photo.width}px"/><p>${photo.title}</p>`
 })
 
+//9-Create a page that shows the current width and height of the window as it is resized - hint: let w = document.documentElement.clientWidth; let h = document.documentElement.clientHeight;Create a page that shows the current width and height of the window as it is resized - hint: let w = document.documentElement.clientWidth; let h = document.documentElement.clientHeight;
+//10-ayri dosyada
+
+//11- Use innerHTML und string literals to create employee cards from the Northwind database
+//baska dosyada
+
+
+
+
+
+
+
+//12- Use createElement and appendChild to create employee cards from the Northwind database
+//13- Create an interactive flashcard game based on the Curriculum JSON
+//14- Create a password generator
+//15- Create a login page with validation and "show password" option
+//16- Create a search machine for the HTML DOM items in Curriculum
+//17- Create a three-page form which prints out the data at the end
+//18- Create a bookstore to order books
+
 

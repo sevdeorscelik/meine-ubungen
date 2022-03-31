@@ -1,0 +1,55 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+
+    .employee {
+        background-color: #eee;
+        margin: 0 0 10px 0;
+        padding: 10px;
+        border-radius: 5px;
+
+        .name {
+            color: brown;
+            cursor: pointer;
+
+        }
+
+        .address {
+
+            display: none;
+        }
+
+        .notes {
+            margin-top: 5px;
+            font-size: .6rem;
+            font-style: italic;
+        }
+
+        .territories {
+            font-size: .6rem;
+            margin-top: 5px;
+        }
+
+        .phone {
+            font-size: 10px;
+            background-color: brown;
+            color: bisque;
+            
+            padding: 3px;
+            border-radius: 5px;
+
+            
+        }
+        .show{
+            font-size: 10px;
+            background-color: aquamarine;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+        .none{
+            visibility: hidden;
+
+        }
+    }
+}

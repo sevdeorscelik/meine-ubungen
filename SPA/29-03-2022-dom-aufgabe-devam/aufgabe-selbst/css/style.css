@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: bisque;
+  height: 100vh;
+}
+
+body header h1 {
+  text-align: center;
+  font-size: 3rem;
+  background: #FF0000;
+  background: radial-gradient(circle farthest-corner at center center, #FF0000 0%, #FFFF00 25%, #05C1FF 50%, #FFFF00 75%, #FF0000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+body main {
+  margin-top: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+body main .icons {
+  line-height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+}
+
+body main .icons .car-icon {
+  display: inline;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 200px;
+  height: 200px;
+  font-size: 5rem;
+  cursor: pointer;
+  background-color: bisque;
+}
+
+body main .icons .cat-icon {
+  display: inline;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  font-size: 5rem;
+  cursor: pointer;
+  background-color: bisque;
+}
+
+body main .icons .sun-icon {
+  display: inline;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  font-size: 5rem;
+  cursor: pointer;
+  background-color: bisque;
+}
+
+body main .texts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  float: right;
+  line-height: 200px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2rem;
+}
+
+body main .texts div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2rem;
+}
+
+body main .texts div p {
+  font-size: 5rem;
+}
+
+body main .texts div .car-text {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  font-size: 5rem;
+  border: dotted 5px black;
+}
+
+body main .texts div .cat-text {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  font-size: 5rem;
+  border: dotted 5px black;
+}
+
+body main .texts div .sun-text {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  font-size: 5rem;
+  border: dotted 5px black;
+}
+/*# sourceMappingURL=style.css.map */
