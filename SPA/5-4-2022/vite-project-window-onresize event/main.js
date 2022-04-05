@@ -32,6 +32,9 @@ btnChangeElem.addEventListener('click', () => {
     const h = document.documentElement.clientHeight
 
     windowInfoElem.innerHTML = `width: ${w}px, height: ${h}px`
+    windowInfoElem.style.border = 'solid 2px #333'
+    windowInfoElem.style.padding = '10px'
+    windowInfoElem.style.display = 'inline'
   }
  
 
