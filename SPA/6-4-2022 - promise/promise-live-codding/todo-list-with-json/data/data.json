@@ -2,7 +2,7 @@
   "todos": [
     {
       "text": "todo1",
-      "finished": true,
+      "finished": false,
       "id": 1
     },
     {
