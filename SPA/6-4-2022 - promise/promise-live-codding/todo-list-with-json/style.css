@@ -7,14 +7,18 @@
   margin-top: 60px;
 }
 
-.tasks{
+.tasks {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.task{
+.task {
   background-color: #eee;
-  width: 220px;
+  width: 320px;
+  margin: 15px 0 0 0;
   padding: 10px;
-  margin: 5px 0 0 0 ;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
 }
