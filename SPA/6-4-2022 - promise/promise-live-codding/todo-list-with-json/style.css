@@ -26,3 +26,8 @@
 .task input[type=checkbox]:checked  + div {
 text-decoration: line-through;
 }
+
+.task input {
+  accent-color: green;
+  cursor: pointer;
+}

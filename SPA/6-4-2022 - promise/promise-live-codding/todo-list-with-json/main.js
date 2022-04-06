@@ -5,7 +5,7 @@ document.querySelector('#app').innerHTML = `
 <form>
   <div class="row">
     <input class="text" type="text" /> 
-    <button class="btnAdd">Add Item</button>
+    <button class="btnAdd">+ Add Item</button>
   </div>
   <div class="tasks"></div>
 </form>
@@ -20,6 +20,7 @@ const getTasks = async () => {
   const data = await response.json();
   return data;
 };
+
 
 const renderList = async () => {
   tasksElem.innerHTML = '';
@@ -40,6 +41,7 @@ const renderList = async () => {
   textElem.value = '';
   textElem.focus();
 
+
   // delete button events
   const deleteButtonElems = document.querySelectorAll('.btnDelete');
   deleteButtonElems.forEach(m => m.addEventListener('click', async (e) => {
@@ -52,6 +54,7 @@ const renderList = async () => {
     const response = await fetch(`http://localhost:5011/todos/${currentId}`, requestOptions);
     renderList();
   }));
+
 
   // checkbox events
   const checkboxElems = document.querySelectorAll('.toggleFinished');
