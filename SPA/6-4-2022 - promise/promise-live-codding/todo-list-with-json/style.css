@@ -22,3 +22,7 @@
   display: flex;
   justify-content: space-between;
 }
+
+.task input[type=checkbox]:checked  + div {
+text-decoration: line-through;
+}
