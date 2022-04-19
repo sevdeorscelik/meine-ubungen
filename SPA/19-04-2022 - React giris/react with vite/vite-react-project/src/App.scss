@@ -1,0 +1,22 @@
+body{
+  background-color: #555;
+  color: #fff;
+
+  .App{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    div{
+      font-size: 3rem;
+      color: brown;
+    }
+
+    ul{
+      margin-top: 5rem;
+      font-size: 1.5rem;
+    }
+  }
+}
