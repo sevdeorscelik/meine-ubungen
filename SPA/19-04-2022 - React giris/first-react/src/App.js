@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import kiraz from './kiraz.jpg';
+import data from './data/data.json';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='image'>
+        <img src={kiraz} className="kiraz" alt="img" height="200px" />
+      </div>
+      <div className='employees'>
+        
+          <ul>
+          <li>
+              <span> First employee: </span> {data.employees[0].firstName +' '+ data.employees[0].lastName}
+          </li>
+          <li>
+              <span> Second employee: </span> {data.employees[1].firstName +' '+ data.employees[1].lastName}
+          </li>
+        </ul>
+          
+       
+        
+      </div>
+      
+
     </div>
   );
 }
