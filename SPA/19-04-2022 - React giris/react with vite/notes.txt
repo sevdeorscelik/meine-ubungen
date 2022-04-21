@@ -1,0 +1,58 @@
+Vite + React + Sass + Json
+
+- create React site with Vite
+	- set up project
+		- `npm create vite`
+		- name: live-coding-vite-demo
+		- choose: react, react
+	- analyze site/code
+		- `cd live-coding-vite-demo`
+		- `code.`
+		- `npm i`
+		- `npm run dev`
+		- `git init`
+		- click auf http://localhost:3000
+	- clean up into minimum site	
+		- background
+			- index.html
+			- main.jsx
+		- clean up
+			- src/App.jsx
+			- src/App.css
+	- add SASS
+		- `npm i sass`
+		- rename App.css to App.scss
+		- App.jsx
+			- import './App.css';
+			- import './App.scss';
+	- add images
+		- create public/images/code.png
+		- App.jsx: ` <img src="./images/code.png" alt="" />`
+	- add JSON file
+		- create JSON file: src/data/data.json
+			---------------------------------
+			{
+				"employees": [
+					{
+						"firstName": "John",
+						"lastName": "Smith"
+					},
+					{
+						"firstName": "Hans",
+						"lastName": "Ankers"
+					}
+				]
+			}			
+			---------------------------------
+		- `import data from './data/data.json';`
+	- display text from JSON file
+		-------------------------------------
+		<div>
+			First employee: {data.employees[0].firstName}{' '}
+			{data.employees[0].lastName}
+		</div>
+		<div>
+			Second employee: {data.employees[1].firstName}{' '}
+			{data.employees[1].lastName}
+		</div>
+		-------------------------------------

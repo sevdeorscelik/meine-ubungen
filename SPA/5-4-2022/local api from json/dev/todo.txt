@@ -1,0 +1,11 @@
+- x use fetch to get customers and orders data and show on page
+- .. create local API which serves customers and orders
+	- x create data.json file with customers and orders in it
+	- .. create the data.json file dynamically from online data
+
+	- set up json-server to serve this json file as API
+	- fetch data from local API instead of online API
+
+
+
+- recreate customers and orders in data.db from online data and allow ids to be created
