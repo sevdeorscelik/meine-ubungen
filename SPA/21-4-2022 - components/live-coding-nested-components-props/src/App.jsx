@@ -2,24 +2,24 @@ import './App.scss'
 import employees from './data/employees.json'
 import { Header } from './components/Header'
 import { Footer } from './components/Footer'
+import { Employee } from './components/Employee'
 //export default yapmiyorsak, import ederken geschweifte klammer icine yazmaliyiz
 
 
-const userIsExternal = false;
+const status = 'externalUser';
 
 function App() {
-  
   return (
     <div className="App">
-      <Header userIsExternal={userIsExternal}/>
+      <Header status={status} />
       <ul>
-        {employees.map((emp,index) => {
-          return <li>{emp.firstName}</li>
+        {employees.map((emp, index) => {
+          return <Employee emp={emp} key={index} index={index} />
         })}
       </ul>
-      <Footer/>
+      <Footer status={status} />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
