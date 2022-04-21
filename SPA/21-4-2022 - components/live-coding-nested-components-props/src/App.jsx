@@ -1,12 +1,20 @@
-import { useState } from 'react'
 import './App.scss'
+import employees from './data/employees.json'
+import { Header } from './components/Header'
+import { Footer } from './components/Footer'
+//export default yapmiyorsak, import ederken geschweifte klammer icine yazmaliyiz
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  
   return (
     <div className="App">
-      <h1>Employee Site</h1>
+      <Header />
+      <ul>
+        {employees.map((emp,index) => {
+          return <li>{emp.firstName}</li>
+        })}
+      </ul>
+      <Footer/>
     </div>
   )
 }
