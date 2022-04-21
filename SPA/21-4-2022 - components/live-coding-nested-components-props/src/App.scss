@@ -3,6 +3,21 @@ body{
     padding: 20px;
     .App {
       color: #fff;
+
+      .employees{
+          background-color: #222;
+          padding: 10px;
+          margin: 0 0 10px 0;
+
+          .title{
+              color: rgb(177,177,100);
+          }
+          .notes{
+              font-size: .8rem;
+              color: #777;
+              font-style: italic;
+          }
+      }
     }
 }
 
