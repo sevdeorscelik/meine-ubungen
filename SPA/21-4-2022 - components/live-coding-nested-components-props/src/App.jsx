@@ -11,14 +11,14 @@ let status = 'internalUser';
 
 function App() {
 
-  function change() {
+  const change = () => {
     if (status === 'internalUser') {
-      status = 'externalUser'
+       status = 'externalUser'
     } else if (status === 'externalUser') {
-      status = 'internalUser'
-    }
+       status = 'internalUser'
+    }   
   }
-
+  
   return (
 
     <div className="App">
