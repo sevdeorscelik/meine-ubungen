@@ -1,0 +1,78 @@
+.page_sevde {
+  * {
+    // border: solid 1px red;
+  }
+  padding: 20px;
+
+  nav * {
+    margin: 3px;
+  }
+
+  h3 {
+    background-color: #deb6ab;
+    padding: 5px;
+  }
+
+  /*spa002-page **********************************/
+
+  .Spa002 {
+    .container-2 {
+      display: inline-flex;
+      gap: 1rem;
+      border-radius: 20px;
+      background-color: #f8ecd1;
+      padding: 15px;
+    }
+  }
+
+  /*spa004-page **********************************/
+
+  .Spa004 {
+    .container-4 {
+      background-color: #f8ecd1;
+      display: inline-block;
+      border-radius: 20px;
+      padding: 15px;
+    }
+  }
+
+  /*spa005-page **********************************/
+
+  .Spa005 {
+    .container-5 {
+      background-color: #f8ecd1;
+      display: inline-block;
+      border-radius: 20px;
+      padding: 15px;
+
+      * {
+        margin: 3px;
+      }
+    }
+  }
+
+  //spa005-page **********************************
+
+  .Spa006 {
+    .container-6 {
+      background-color: #f8ecd1;
+      border-radius: 20px;
+      padding: 15px;
+      height: 50vh;
+
+      position: relative;
+
+      .box{
+        
+        
+        position: absolute;
+        margin-left: 100px;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        background-color: #85586F;
+        
+      }
+    }
+  }
+}
