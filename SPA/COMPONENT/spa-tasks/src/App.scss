@@ -40,7 +40,12 @@
         }
         a {
           text-decoration: none;
-          color: #85586f;
+          color: black;
+
+          strong{
+            color: #85586f;
+            font-size: 1.2rem;
+          }
         }
       }
     }
