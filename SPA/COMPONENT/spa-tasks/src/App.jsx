@@ -19,10 +19,10 @@ function App() {
         <nav>
           <Link to="/" >Menu</Link>
           <Link to="/spa002" >Spa002</Link>
-          <Link to="/spa004" >spa004</Link>
-          <Link to="/spa005" >spa005</Link>
-          <Link to="/spa006" >spa006</Link>
-          <Link to="/spa007" >spa007</Link>
+          <Link to="/spa004" >Spa004</Link>
+          <Link to="/spa005" >Spa005</Link>
+          <Link to="/spa006" >Spa006</Link>
+          <Link to="/spa007" >Spa007</Link>
         </nav>
         <Routes>
           <Route path="/" element={<Menu/>} />

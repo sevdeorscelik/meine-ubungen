@@ -1,16 +1,49 @@
 .page_sevde {
-  * {
-    // border: solid 1px red;
-  }
   padding: 20px;
 
-  nav * {
-    margin: 3px;
+  nav {
+    background-color: #85586f;
+    height: 3rem;
+
+    a {
+      text-decoration: none;
+      color: #f8ecd1;
+      line-height: 3rem;
+      margin: 15px;
+      font-weight: bold;
+
+      &:hover {
+        color: #ffe59d;
+      }
+    }
   }
 
   h3 {
     background-color: #deb6ab;
     padding: 5px;
+  }
+
+  /*menu-page **********************************/
+
+  .Menu {
+    .container-menu {
+      div {
+        border-radius: 20px;
+        background-color: #f8ecd1;
+        padding: 10px;
+        list-style: none;
+        margin: 5px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #fdd7aa;
+        }
+        a {
+          text-decoration: none;
+          color: #85586f;
+        }
+      }
+    }
   }
 
   /*spa002-page **********************************/
@@ -51,7 +84,7 @@
     }
   }
 
-  //spa005-page **********************************
+  //spa006-page **********************************
 
   .Spa006 {
     .container-6 {
@@ -62,16 +95,36 @@
 
       position: relative;
 
-      .box{
-        
-        
+      .box {
         position: absolute;
         margin-left: 100px;
         height: 100px;
         width: 100px;
         border-radius: 50%;
-        background-color: #85586F;
-        
+        background-color: #85586f;
+      }
+    }
+  }
+
+  //spa007-page **********************************
+
+  .Spa007 {
+    .container-7 {
+      background-color: #f8ecd1;
+      border-radius: 20px;
+      padding: 15px;
+
+      .spinner-icon {
+        animation: spin 2s linear infinite;
+
+        @keyframes spin {
+          0% {
+            transform: rotate(0deg);
+          }
+          100% {
+            transform: rotate(360deg);
+          }
+        }
       }
     }
   }
