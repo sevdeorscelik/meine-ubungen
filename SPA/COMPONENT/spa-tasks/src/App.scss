@@ -1,0 +1,136 @@
+.page_sevde {
+  padding: 20px;
+
+  nav {
+    background-color: #85586f;
+    height: 3rem;
+
+    a {
+      text-decoration: none;
+      color: #f8ecd1;
+      line-height: 3rem;
+      margin: 15px;
+      font-weight: bold;
+
+      &:hover {
+        color: #ffe59d;
+      }
+    }
+  }
+
+  h3 {
+    background-color: #deb6ab;
+    padding: 5px;
+  }
+
+  /*menu-page **********************************/
+
+  .Menu {
+    .container-menu {
+      div {
+        border-radius: 20px;
+        background-color: #f8ecd1;
+        padding: 10px;
+        list-style: none;
+        margin: 5px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #fdd7aa;
+        }
+        a {
+          text-decoration: none;
+          color: black;
+
+          strong{
+            color: #85586f;
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+  }
+
+  /*spa002-page **********************************/
+
+  .Spa002 {
+    .container-2 {
+      display: inline-flex;
+      gap: 1rem;
+      border-radius: 20px;
+      background-color: #f8ecd1;
+      padding: 15px;
+    }
+  }
+
+  /*spa004-page **********************************/
+
+  .Spa004 {
+    .container-4 {
+      background-color: #f8ecd1;
+      display: inline-block;
+      border-radius: 20px;
+      padding: 15px;
+    }
+  }
+
+  /*spa005-page **********************************/
+
+  .Spa005 {
+    .container-5 {
+      background-color: #f8ecd1;
+      display: inline-block;
+      border-radius: 20px;
+      padding: 15px;
+
+      * {
+        margin: 3px;
+      }
+    }
+  }
+
+  //spa006-page **********************************
+
+  .Spa006 {
+    .container-6 {
+      background-color: #f8ecd1;
+      border-radius: 20px;
+      padding: 15px;
+      height: 50vh;
+
+      position: relative;
+
+      .box {
+        position: absolute;
+        margin-left: 100px;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        background-color: #85586f;
+      }
+    }
+  }
+
+  //spa007-page **********************************
+
+  .Spa007 {
+    .container-7 {
+      background-color: #f8ecd1;
+      border-radius: 20px;
+      padding: 15px;
+
+      .spinner-icon {
+        animation: spin 2s linear infinite;
+
+        @keyframes spin {
+          0% {
+            transform: rotate(0deg);
+          }
+          100% {
+            transform: rotate(360deg);
+          }
+        }
+      }
+    }
+  }
+}

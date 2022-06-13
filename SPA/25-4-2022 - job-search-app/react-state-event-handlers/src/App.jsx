@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.scss';
-import data_jobs from './data/jobs.json';
+import jobs from './data/jobs.json';
 import { JobsFull } from './components/JobsFull'
 import { JobsList } from './components/JobsList'
 

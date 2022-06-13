@@ -1,0 +1,751 @@
+{
+  "count": 26,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 1974,
+      "title": "The Poetics of Aristotle",
+      "authors": [
+        { "name": "Aristotle", "birth_year": -384, "death_year": -322 }
+      ],
+      "translators": [
+        {
+          "name": "Butcher, S. H. (Samuel Henry)",
+          "birth_year": 1850,
+          "death_year": 1910
+        }
+      ],
+      "subjects": [
+        "Aesthetics -- Early works to 1800",
+        "Poetry -- Early works to 1800"
+      ],
+      "bookshelves": ["Classical Antiquity", "Philosophy"],
+      "languages": ["en"],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/1974/1974.txt",
+        "application/zip": "https://www.gutenberg.org/files/1974/1974-h.zip",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/1974/pg1974.cover.medium.jpg",
+        "text/html; charset=us-ascii": "https://www.gutenberg.org/files/1974/1974-h/1974-h.htm",
+        "text/html": "https://www.gutenberg.org/ebooks/1974.html.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/1974.rdf",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/1974.epub.images",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/1974.kindle.images",
+        "text/plain": "https://www.gutenberg.org/ebooks/1974.txt.utf-8"
+      },
+      "download_count": 1953
+    },
+    {
+      "id": 8438,
+      "title": "The Ethics of Aristotle",
+      "authors": [
+        { "name": "Aristotle", "birth_year": -384, "death_year": -322 }
+      ],
+      "translators": [],
+      "subjects": ["Ethics"],
+      "bookshelves": ["Classical Antiquity", "Philosophy"],
+      "languages": ["en"],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "application/zip": "https://www.gutenberg.org/files/8438/8438-h.zip",
+        "text/plain; charset=utf-8": "https://www.gutenberg.org/files/8438/8438-0.txt",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/8438/pg8438.cover.medium.jpg",
+        "text/html; charset=utf-8": "https://www.gutenberg.org/files/8438/8438-h/8438-h.htm",
+        "text/html": "https://www.gutenberg.org/ebooks/8438.html.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/8438.rdf",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/8438.kindle.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/8438.epub.images"
+      },
+      "download_count": 1845
+    },
+    {
+      "id": 67858,
+      "title": "Aristotle’s works:: Containing the Master-piece, Directions for Midwives, and Counsel and Advice to Child-bearing Women with Various Useful Remedies",
+      "authors": [
+        { "name": "Aristotle, pseud.", "birth_year": null, "death_year": null }
+      ],
+      "translators": [],
+      "subjects": [
+        "Gynecology -- Early works to 1800",
+        "Human reproduction -- Early works to 1800",
+        "Medicine, Popular -- Early works to 1800",
+        "Obstetrics -- Early works to 1800"
+      ],
+      "bookshelves": [],
+      "languages": ["en"],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "application/zip": "https://www.gutenberg.org/files/67858/67858-0.zip",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/67858.rdf",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/67858/pg67858.cover.medium.jpg",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/67858.kindle.images",
+        "text/plain": "https://www.gutenberg.org/ebooks/67858.txt.utf-8",
+        "text/html": "https://www.gutenberg.org/ebooks/67858.html.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/67858.epub.images",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/67858/67858-0.txt",
+        "application/octet-stream": "https://www.gutenberg.org/files/67858/67858-h.zip"
+      },
+      "download_count": 1212
+    },
+    {
+      "id": 6762,
+      "title": "Politics: A Treatise on Government",
+      "authors": [
+        { "name": "Aristotle", "birth_year": -384, "death_year": -322 }
+      ],
+      "translators": [
+        { "name": "Ellis, William", "birth_year": 1730, "death_year": 1801 }
+      ],
+      "subjects": ["Political science -- Early works to 1800"],
+      "bookshelves": ["Classical Antiquity", "Philosophy", "Politics"],
+      "languages": ["en"],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "application/zip": "https://www.gutenberg.org/files/6762/6762.zip",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/6762/6762.txt",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/6762/pg6762.cover.medium.jpg",
+        "text/html; charset=us-ascii": "https://www.gutenberg.org/files/6762/6762-h/6762-h.htm",
+        "text/html": "https://www.gutenberg.org/ebooks/6762.html.images",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/6762.kindle.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/6762.rdf",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/6762.epub.images",
+        "text/plain": "https://www.gutenberg.org/ebooks/6762.txt.utf-8"
+      },
+      "download_count": 648
+    },
+    {
+      "id": 2412,
+      "title": "The Categories",
+      "authors": [
+        { "name": "Aristotle", "birth_year": -384, "death_year": -322 }
+      ],
+      "translators": [
+        { "name": "Edghill, E. M.", "birth_year": null, "death_year": null }
+      ],
+      "subjects": [
+        "Categories (Philosophy)",
+        "Logic -- Early works to 1800",
+        "Philosophy, Ancient"
+      ],
+      "bookshelves": ["Classical Antiquity", "Philosophy"],
+      "languages": ["en"],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "text/html; charset=iso-8859-1": "https://www.gutenberg.org/files/2412/2412-h/2412-h.htm",
+        "application/zip": "https://www.gutenberg.org/files/2412/2412-h.zip",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/2412/2412.txt",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/2412/pg2412.cover.small.jpg",
+        "text/html": "https://www.gutenberg.org/ebooks/2412.html.images",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/2412.kindle.images",
+        "text/plain": "https://www.gutenberg.org/ebooks/2412.txt.utf-8",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/2412.rdf",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/2412.epub.images"
+      },
+      "download_count": 337
+    },
+    {
+      "id": 59058,
+      "title": "Aristotle's History of Animals: In Ten Books",
+      "authors": [
+        { "name": "Aristotle", "birth_year": -384, "death_year": -322 }
+      ],
+      "translators": [
+        { "name": "Cresswell, Richard", "birth_year": null, "death_year": null }
+      ],
+      "subjects": ["Zoology -- Pre-Linnaean works"],
+      "bookshelves": [],
+      "languages": ["en"],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "text/html; charset=utf-8": "https://www.gutenberg.org/files/59058/59058-h/59058-h.htm",
+        "application/zip": "https://www.gutenberg.org/files/59058/59058-h.zip",
+        "text/plain; charset=utf-8": "https://www.gutenberg.org/files/59058/59058-0.txt",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/59058/pg59058.cover.medium.jpg",
+        "text/html": "https://www.gutenberg.org/ebooks/59058.html.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/59058.epub.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/59058.rdf",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/59058.kindle.images"
+      },
+      "download_count": 281
+    },
+    {
+      "id": 6763,
+      "title": "Aristotle on the art of poetry",
+      "authors": [
+        { "name": "Aristotle", "birth_year": -384, "death_year": -322 }
+      ],
+      "translators": [
+        { "name": "Bywater, Ingram", "birth_year": 1840, "death_year": 1914 }
+      ],
+      "subjects": [
+        "Aesthetics -- Early works to 1800",
+        "Music -- Philosophy and aesthetics",
+        "Poetry -- Early works to 1800"
+      ],
+      "bookshelves": ["Classical Antiquity", "Philosophy"],
+      "languages": ["en"],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "text/html; charset=us-ascii": "https://www.gutenberg.org/files/6763/6763-h/6763-h.htm",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/6763/6763.zip",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/6763/pg6763.cover.medium.jpg",
+        "text/html": "https://www.gutenberg.org/ebooks/6763.html.images",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/6763.kindle.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/6763.rdf",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/6763.epub.images",
+        "text/plain": "https://www.gutenberg.org/ebooks/6763.txt.utf-8"
+      },
+      "download_count": 252
+    },
+    {
+      "id": 12699,
+      "title": "The Works of Aristotle the Famous Philosopher: Containing his Complete Masterpiece and Family Physician; his Experienced Midwife, his Book of Problems and his Remarks on Physiognomy",
+      "authors": [],
+      "translators": [],
+      "subjects": ["Human beings", "Mind and body", "Reproduction"],
+      "bookshelves": [],
+      "languages": ["en"],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "application/zip": "https://www.gutenberg.org/files/12699/12699.zip",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/12699/12699.txt",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/12699/pg12699.cover.small.jpg",
+        "text/html": "https://www.gutenberg.org/ebooks/12699.html.images",
+        "text/html; charset=us-ascii": "https://www.gutenberg.org/files/12699/12699-h/12699-h.htm",
+        "text/plain": "https://www.gutenberg.org/ebooks/12699.txt.utf-8",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/12699.epub.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/12699.rdf",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/12699.kindle.images"
+      },
+      "download_count": 200
+    },
+    {
+      "id": 27816,
+      "title": "Περί Ψυχής",
+      "authors": [
+        { "name": "Aristotle", "birth_year": -384, "death_year": -322 }
+      ],
+      "translators": [
+        { "name": "Gratsiatos, Paulos", "birth_year": null, "death_year": null }
+      ],
+      "subjects": ["Psychology -- Early works to 1850"],
+      "bookshelves": [],
+      "languages": ["el"],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "text/html; charset=utf-8": "https://www.gutenberg.org/files/27816/27816-h.zip",
+        "text/plain; charset=utf-8": "https://www.gutenberg.org/files/27816/27816-0.txt",
+        "application/zip": "https://www.gutenberg.org/files/27816/27816-0.zip",
+        "text/html": "https://www.gutenberg.org/ebooks/27816.html.images",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/27816/pg27816.cover.medium.jpg",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/27816.epub.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/27816.rdf",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/27816.kindle.images"
+      },
+      "download_count": 160
+    },
+    {
+      "id": 26095,
+      "title": "The Athenian Constitution",
+      "authors": [
+        { "name": "Aristotle", "birth_year": -384, "death_year": -322 }
+      ],
+      "translators": [
+        {
+          "name": "Kenyon, Frederic G. (Frederic George), Sir",
+          "birth_year": 1863,
+          "death_year": 1952
+        }
+      ],
+      "subjects": [
+        "Athens (Greece) -- Politics and government -- Early works to 1800",
+        "Classical literature",
+        "Constitutional history -- Greece -- Athens -- To 146 B.C."
+      ],
+      "bookshelves": [],
+      "languages": ["en"],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/26095/pg26095.cover.medium.jpg",
+        "application/zip": "https://www.gutenberg.org/files/26095/26095.zip",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/26095/26095.txt",
+        "text/html; charset=iso-8859-1": "https://www.gutenberg.org/files/26095/26095-h/26095-h.htm",
+        "text/html": "https://www.gutenberg.org/ebooks/26095.html.images",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/26095.kindle.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/26095.rdf",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/26095.epub.images",
+        "text/plain": "https://www.gutenberg.org/ebooks/26095.txt.utf-8"
+      },
+      "download_count": 136
+    },
+    {
+      "id": 48002,
+      "title": "Aristotle",
+      "authors": [
+        {
+          "name": "Taylor, A. E. (Alfred Edward)",
+          "birth_year": 1869,
+          "death_year": 1945
+        }
+      ],
+      "translators": [],
+      "subjects": ["Aristotle, 384 BC-322 BC"],
+      "bookshelves": [],
+      "languages": ["en"],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "text/html; charset=utf-8": "https://www.gutenberg.org/files/48002/48002-h.zip",
+        "application/zip": "https://www.gutenberg.org/files/48002/48002-8.zip",
+        "text/x-rst": "https://www.gutenberg.org/ebooks/48002.rst.gen",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/48002/48002.txt",
+        "text/plain; charset=utf-8": "https://www.gutenberg.org/files/48002/48002-0.txt",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/48002/pg48002.cover.medium.jpg",
+        "text/plain; charset=iso-8859-1": "https://www.gutenberg.org/files/48002/48002-8.txt",
+        "text/html": "https://www.gutenberg.org/ebooks/48002.html.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/48002.epub.images",
+        "application/pdf": "https://www.gutenberg.org/ebooks/48002.pdf.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/48002.rdf",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/48002.kindle.images"
+      },
+      "download_count": 112
+    },
+    {
+      "id": 16880,
+      "title": "Über die Dichtkunst beim Aristoteles: Neu übersetzt und mit Einleitung und einem erklärenden Namen- und Sachverzeichnis versehen von Alfred Gudemann 1921",
+      "authors": [
+        { "name": "Aristotle", "birth_year": -384, "death_year": -322 }
+      ],
+      "translators": [
+        { "name": "Gudemann, Alfred", "birth_year": 1862, "death_year": 1942 }
+      ],
+      "subjects": [
+        "Aristotle, 384 BC-322 BC",
+        "Classical literature",
+        "Poetry -- Early works to 1800"
+      ],
+      "bookshelves": ["Classical Antiquity", "DE Sachbuch"],
+      "languages": ["de"],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "text/plain; charset=utf-8": "https://www.gutenberg.org/files/16880/16880-0.txt",
+        "application/zip": "https://www.gutenberg.org/files/16880/16880-h.zip",
+        "text/html; charset=utf-8": "https://www.gutenberg.org/files/16880/16880-h/16880-h.htm",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/16880/pg16880.cover.small.jpg",
+        "text/html": "https://www.gutenberg.org/ebooks/16880.html.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/16880.epub.images",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/16880.kindle.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/16880.rdf"
+      },
+      "download_count": 106
+    },
+    {
+      "id": 45851,
+      "title": "Aristotle",
+      "authors": [
+        { "name": "Grote, George", "birth_year": 1794, "death_year": 1871 }
+      ],
+      "translators": [],
+      "subjects": ["Aristotle, 384 BC-322 BC"],
+      "bookshelves": [],
+      "languages": ["en"],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "application/zip": "https://www.gutenberg.org/files/45851/45851-8.zip",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/45851/pg45851.cover.small.jpg",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/45851/45851.zip",
+        "text/html": "https://www.gutenberg.org/ebooks/45851.html.images",
+        "text/plain; charset=iso-8859-1": "https://www.gutenberg.org/files/45851/45851-8.txt",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/45851.kindle.images",
+        "text/plain": "https://www.gutenberg.org/ebooks/45851.txt.utf-8",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/45851.rdf",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/45851.epub.images"
+      },
+      "download_count": 95
+    },
+    {
+      "id": 39963,
+      "title": "Αθηναίων Πολιτεία",
+      "authors": [
+        { "name": "Aristotle", "birth_year": -384, "death_year": -322 }
+      ],
+      "translators": [
+        {
+          "name": "Zervos, I. (Ioannes)",
+          "birth_year": 1875,
+          "death_year": 1944
+        }
+      ],
+      "subjects": [
+        "Athens (Greece) -- Politics and government -- Early works to 1800",
+        "Constitutional history -- Greece -- Athens -- To 146 B.C."
+      ],
+      "bookshelves": [],
+      "languages": ["el"],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "text/html; charset=utf-8": "https://www.gutenberg.org/files/39963/39963-h/39963-h.htm",
+        "application/zip": "https://www.gutenberg.org/files/39963/39963-0.zip",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/39963/pg39963.cover.medium.jpg",
+        "text/plain; charset=utf-8": "https://www.gutenberg.org/files/39963/39963-0.txt",
+        "text/html": "https://www.gutenberg.org/ebooks/39963.html.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/39963.rdf",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/39963.kindle.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/39963.epub.images"
+      },
+      "download_count": 79
+    },
+    {
+      "id": 20685,
+      "title": "Poetics",
+      "authors": [
+        { "name": "Aristotle", "birth_year": -384, "death_year": -322 }
+      ],
+      "translators": [],
+      "subjects": [
+        "Aesthetics -- Early works to 1800",
+        "Poetry -- Early works to 1800"
+      ],
+      "bookshelves": ["Classical Antiquity", "Philosophy"],
+      "languages": ["en"],
+      "copyright": false,
+      "media_type": "Sound",
+      "formats": {
+        "audio/ogg": "http://www.gutenberg.org/files/20685/ogg/20685-09.ogg",
+        "audio/mp4": "http://www.gutenberg.org/files/20685/m4b/20685-04.m4b",
+        "application/zip": "http://www.gutenberg.org/files/20685/20685-spx.zip",
+        "audio/mpeg": "http://www.gutenberg.org/files/20685/mp3/20685-09.mp3",
+        "text/html": "http://www.gutenberg.org/files/20685/20685-index.html",
+        "application/rdf+xml": "http://www.gutenberg.org/ebooks/20685.rdf",
+        "text/plain": "http://www.gutenberg.org/files/20685/20685-readme.txt"
+      },
+      "download_count": 58
+    },
+    {
+      "id": 28626,
+      "title": "Ηθικά Νικομάχεια, Τόμος Πρώτος",
+      "authors": [
+        { "name": "Aristotle", "birth_year": -384, "death_year": -322 }
+      ],
+      "translators": [
+        { "name": "Zambas, Kyriakos", "birth_year": 1866, "death_year": null }
+      ],
+      "subjects": ["Ethics"],
+      "bookshelves": [],
+      "languages": ["el"],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/28626/pg28626.cover.small.jpg",
+        "text/plain; charset=utf-8": "https://www.gutenberg.org/files/28626/28626-0.zip",
+        "text/html": "https://www.gutenberg.org/ebooks/28626.html.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/28626.rdf",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/28626.kindle.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/28626.epub.images"
+      },
+      "download_count": 54
+    },
+    {
+      "id": 34160,
+      "title": "Lives of Eminent Zoologists, from Aristotle to Linnæus: with Introductory remarks on the Study of Natural History",
+      "authors": [
+        {
+          "name": "MacGillivray, William",
+          "birth_year": 1796,
+          "death_year": 1852
+        }
+      ],
+      "translators": [],
+      "subjects": ["Zoologists"],
+      "bookshelves": [],
+      "languages": ["en"],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "application/zip": "https://www.gutenberg.org/files/34160/34160.zip",
+        "text/plain; charset=iso-8859-1": "https://www.gutenberg.org/files/34160/34160-8.txt",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/34160/34160.txt",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/34160/pg34160.cover.small.jpg",
+        "text/html": "https://www.gutenberg.org/ebooks/34160.html.images",
+        "text/html; charset=iso-8859-1": "https://www.gutenberg.org/files/34160/34160-h/34160-h.htm",
+        "text/plain": "https://www.gutenberg.org/ebooks/34160.txt.utf-8",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/34160.epub.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/34160.rdf",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/34160.kindle.images"
+      },
+      "download_count": 52
+    },
+    {
+      "id": 29547,
+      "title": "The Preface to Aristotle's Art of Poetry",
+      "authors": [
+        { "name": "Dacier, André", "birth_year": 1651, "death_year": 1722 }
+      ],
+      "translators": [],
+      "subjects": ["Aristotle, 384 BC-322 BC. Poetics"],
+      "bookshelves": [],
+      "languages": ["en"],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "application/zip": "https://www.gutenberg.org/files/29547/29547.zip",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/29547/pg29547.cover.medium.jpg",
+        "text/plain; charset=iso-8859-1": "https://www.gutenberg.org/files/29547/29547-8.txt",
+        "text/html; charset=iso-8859-1": "https://www.gutenberg.org/files/29547/29547-h/29547-h.htm",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/29547/29547.txt",
+        "text/html": "https://www.gutenberg.org/ebooks/29547.html.images",
+        "text/plain": "https://www.gutenberg.org/ebooks/29547.txt.utf-8",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/29547.kindle.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/29547.rdf",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/29547.epub.images"
+      },
+      "download_count": 43
+    },
+    {
+      "id": 40552,
+      "title": "Aristotle and Ancient Educational Ideals",
+      "authors": [
+        { "name": "Davidson, Thomas", "birth_year": 1840, "death_year": 1900 }
+      ],
+      "translators": [],
+      "subjects": ["Aristotle, 384 BC-322 BC", "Education, Greek"],
+      "bookshelves": [],
+      "languages": ["en"],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "text/html; charset=utf-8": "https://www.gutenberg.org/files/40552/40552-h/40552-h.htm",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/40552/pg40552.cover.medium.jpg",
+        "application/zip": "https://www.gutenberg.org/files/40552/40552-0.zip",
+        "text/plain; charset=utf-8": "https://www.gutenberg.org/files/40552/40552-0.txt",
+        "text/html": "https://www.gutenberg.org/ebooks/40552.html.images",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/40552.kindle.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/40552.rdf",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/40552.epub.images"
+      },
+      "download_count": 38
+    },
+    {
+      "id": 29011,
+      "title": "Ηθικά Νικομάχεια, Τόμος Δεύτερος",
+      "authors": [
+        { "name": "Aristotle", "birth_year": -384, "death_year": -322 }
+      ],
+      "translators": [
+        { "name": "Zambas, Kyriakos", "birth_year": 1866, "death_year": null }
+      ],
+      "subjects": ["Ethics"],
+      "bookshelves": [],
+      "languages": ["el"],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "text/plain; charset=utf-8": "https://www.gutenberg.org/files/29011/29011-0.txt",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/29011/pg29011.cover.medium.jpg",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/29011.epub.images",
+        "text/html": "https://www.gutenberg.org/ebooks/29011.html.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/29011.rdf",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/29011.kindle.images"
+      },
+      "download_count": 35
+    },
+    {
+      "id": 40439,
+      "title": "Plato's Doctrine Respecting the Rotation of the Earth and Aristotle's Comment Upon That Doctrine",
+      "authors": [
+        { "name": "Grote, George", "birth_year": 1794, "death_year": 1871 }
+      ],
+      "translators": [],
+      "subjects": [
+        "Aristotle, 384 BC-322 BC",
+        "Astronomy, Greek",
+        "Earth (Planet) -- Rotation",
+        "Plato. Timaeus"
+      ],
+      "bookshelves": [],
+      "languages": ["en"],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "application/zip": "https://www.gutenberg.org/files/40439/40439-8.zip",
+        "text/html; charset=iso-8859-1": "https://www.gutenberg.org/files/40439/40439-h/40439-h.htm",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/40439/40439.zip",
+        "text/plain; charset=iso-8859-1": "https://www.gutenberg.org/files/40439/40439-8.txt",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/40439/pg40439.cover.medium.jpg",
+        "text/html": "https://www.gutenberg.org/ebooks/40439.html.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/40439.rdf",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/40439.kindle.images",
+        "text/plain": "https://www.gutenberg.org/ebooks/40439.txt.utf-8",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/40439.epub.images"
+      },
+      "download_count": 34
+    },
+    {
+      "id": 27895,
+      "title": "Μικρά Φυσικά, Τόμος Πρώτος",
+      "authors": [
+        { "name": "Aristotle", "birth_year": -384, "death_year": -322 }
+      ],
+      "translators": [
+        { "name": "Gratsiatos, Paulos", "birth_year": null, "death_year": null }
+      ],
+      "subjects": ["Psychology -- Early works to 1850"],
+      "bookshelves": [],
+      "languages": ["el"],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/27895/pg27895.cover.medium.jpg",
+        "text/plain; charset=utf-8": "https://www.gutenberg.org/files/27895/27895-0.txt",
+        "application/zip": "https://www.gutenberg.org/files/27895/27895-h.zip",
+        "text/html": "https://www.gutenberg.org/ebooks/27895.html.images",
+        "text/html; charset=utf-8": "https://www.gutenberg.org/files/27895/27895-h/27895-h.htm",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/27895.epub.images",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/27895.kindle.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/27895.rdf"
+      },
+      "download_count": 33
+    },
+    {
+      "id": 27896,
+      "title": "Μικρά Φυσικά, Τόμος Δεύτερος",
+      "authors": [
+        { "name": "Aristotle", "birth_year": -384, "death_year": -322 }
+      ],
+      "translators": [
+        { "name": "Gratsiatos, Paulos", "birth_year": null, "death_year": null }
+      ],
+      "subjects": ["Psychology -- Early works to 1850"],
+      "bookshelves": [],
+      "languages": ["el"],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/27896/pg27896.cover.medium.jpg",
+        "application/zip": "https://www.gutenberg.org/files/27896/27896-0.zip",
+        "text/plain; charset=utf-8": "https://www.gutenberg.org/files/27896/27896-0.txt",
+        "text/html; charset=utf-8": "https://www.gutenberg.org/files/27896/27896-h/27896-h.htm",
+        "text/html": "https://www.gutenberg.org/ebooks/27896.html.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/27896.rdf",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/27896.epub.images",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/27896.kindle.images"
+      },
+      "download_count": 33
+    },
+    {
+      "id": 59205,
+      "title": "Feminism in Greek Literature from Homer to Aristotle",
+      "authors": [
+        {
+          "name": "Wright, F. A. (Frederick Adam)",
+          "birth_year": 1869,
+          "death_year": 1946
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Feminism and literature -- Greece",
+        "Feminist literary criticism",
+        "Greek literature -- History and criticism",
+        "Women -- Greece -- History",
+        "Women and literature -- Greece",
+        "Women in literature"
+      ],
+      "bookshelves": [],
+      "languages": ["en"],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/59205/pg59205.cover.medium.jpg",
+        "application/zip": "https://www.gutenberg.org/files/59205/59205-h.zip",
+        "text/html; charset=utf-8": "https://www.gutenberg.org/files/59205/59205-h/59205-h.htm",
+        "text/plain; charset=utf-8": "https://www.gutenberg.org/files/59205/59205-0.txt",
+        "text/html": "https://www.gutenberg.org/ebooks/59205.html.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/59205.epub.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/59205.rdf",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/59205.kindle.images"
+      },
+      "download_count": 32
+    },
+    {
+      "id": 56821,
+      "title": "Four Phases of Morals: Socrates, Aristotle, Christianity, Utilitarianism",
+      "authors": [
+        {
+          "name": "Blackie, John Stuart",
+          "birth_year": 1809,
+          "death_year": 1895
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Aristotle, 384 BC-322 BC",
+        "Christian ethics",
+        "Ethics -- Greece",
+        "Ethics -- History",
+        "Socrates, 470 BC-399 BC",
+        "Utilitarianism"
+      ],
+      "bookshelves": [],
+      "languages": ["en"],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "text/plain; charset=utf-8": "https://www.gutenberg.org/files/56821/56821-0.txt",
+        "text/html; charset=utf-8": "https://www.gutenberg.org/files/56821/56821-h.zip",
+        "application/zip": "https://www.gutenberg.org/files/56821/56821-0.zip",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/56821/pg56821.cover.small.jpg",
+        "text/html": "https://www.gutenberg.org/ebooks/56821.html.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/56821.rdf",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/56821.epub.images",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/56821.kindle.images"
+      },
+      "download_count": 25
+    },
+    {
+      "id": 54728,
+      "title": "Runousoppi",
+      "authors": [
+        { "name": "Aristotle", "birth_year": -384, "death_year": -322 }
+      ],
+      "translators": [
+        {
+          "name": "Calamnius, J. W. (Johan Wiktor)",
+          "birth_year": 1838,
+          "death_year": 1891
+        }
+      ],
+      "subjects": [
+        "Aesthetics -- Early works to 1800",
+        "Poetry -- Early works to 1800"
+      ],
+      "bookshelves": [],
+      "languages": ["fi"],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/54728/pg54728.cover.medium.jpg",
+        "text/plain; charset=utf-8": "https://www.gutenberg.org/files/54728/54728-0.txt",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/54728.rdf",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/54728.kindle.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/54728.epub.images",
+        "text/html": "https://www.gutenberg.org/ebooks/54728.html.images"
+      },
+      "download_count": 18
+    }
+  ]
+}

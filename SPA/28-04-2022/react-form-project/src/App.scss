@@ -1,0 +1,157 @@
+body {
+	background-color: #333;
+	padding: 0 30px;
+
+	.App {
+		font-size: 1.5rem;
+		color: #ccc;
+
+		h1 {
+			font-size: 2.3rem;
+		}
+
+		.buttonArea {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.jobs {
+			margin: 20px 0 0 0;
+		}
+
+		.job {
+			background-color: #222;
+			padding: 20px;
+			margin: 0 0 20px 0;
+
+			.header {
+				display: flex;
+				justify-content: space-between;
+
+				.position {
+					a {
+						color: rgb(177, 110, 33);
+					}
+				}
+
+				.status {
+					color: #ccc;
+					font-family: monospace;
+					font-size: 1.5rem;
+					background-color: #666;
+					border: 0;
+					border-radius: 5px;
+					padding: 5px 10px;
+					cursor: pointer;
+				}
+
+			}
+
+			.skills {
+				font-size: 1.2rem;
+				color: rgb(212, 212, 130);
+			}
+
+			.bulkText {
+				font-size: 0.9rem;
+			}
+
+			ul.skillDefinitions {
+				margin: 10px 0 0 0;
+
+				li {
+					font-size: 0.9rem;
+					color: rgb(217, 217, 100);
+				}
+			}
+		}
+
+		.job.send {
+			background-color: rgb(70, 72, 70);
+		}
+
+		.job.wait {
+			background-color: rgb(79, 79, 14);
+		}
+
+		.job.interview {
+			background-color: rgb(61, 22, 22);
+		}
+
+		.job.declined {
+			background-color: #000;
+
+			.position {
+				a {
+					color: #222;
+				}
+			}
+
+			.skills {
+				color: #222;
+			}
+		}
+
+		.job.accepted {
+			background-color: rgb(7, 85, 24);
+		}
+
+		ul.jobsList {
+			li {
+				a {
+					color: rgb(177, 110, 33);
+				}
+			}
+		}
+
+		form {
+			width: 600px;
+
+			.formMessage {
+				color: yellow;
+				margin: -20px 0 0 120px;
+			}
+
+			fieldset {
+				border: 1px solid #888;
+				border-radius: 5px;
+				padding: 20px;
+
+				legend {
+					font-size: 1.2rem;
+				}
+
+				.row {
+					display: flex;
+					align-content: start;
+					padding: 5px;
+
+					label {
+						&:after {
+							content: ":";
+						}
+
+						width: 115px;
+						margin: 0 0 10px 0;
+					}
+
+					input {
+						font-size: 1rem;
+						width: 300px;
+					}
+				}
+
+				.buttonRow {
+					display: flex;
+					justify-content: right;
+
+					button {
+						font-size: 1rem;
+						padding: 5px;
+					}
+				}
+			}
+		}
+
+	}
+}
